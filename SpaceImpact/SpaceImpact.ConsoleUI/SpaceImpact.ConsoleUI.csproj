@@ -41,11 +41,23 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="LaserConsole.cs" />
+    <Compile Include="ConsoleControl.cs" />
+    <Compile Include="EnemyConsole.cs" />
+    <Compile Include="Map\ConsoleMap.cs" />
+    <Compile Include="Map\ProgressBar.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="SpaceshipConsole.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\SpaceImpact.GameEngine\SpaceImpact.GameEngine.csproj">
+      <Project>{47fb599a-af32-4cbb-9f3e-7ff2dffb687d}</Project>
+      <Name>SpaceImpact.GameEngine</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

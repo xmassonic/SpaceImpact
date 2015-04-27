@@ -3,13 +3,12 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using SpaceImpact.GameEngine.BaseGameElements;
 
 namespace SpaceImpact.GameEngine
 {
-    class Program
+    public class HealthScale: GameElement
     {
-        static void Main(string[] args)
-        {
-        }
+        public HealthScale(int x, int y, int life) : base(x, y, life) {}
     }
 }

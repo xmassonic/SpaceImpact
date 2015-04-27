@@ -5,7 +5,7 @@
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
     <ProjectGuid>{47FB599A-AF32-4CBB-9F3E-7FF2DFFB687D}</ProjectGuid>
-    <OutputType>Exe</OutputType>
+    <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <RootNamespace>SpaceImpact.GameEngine</RootNamespace>
     <AssemblyName>SpaceImpact.GameEngine</AssemblyName>
@@ -31,6 +31,9 @@
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
+  <PropertyGroup>
+    <StartupObject />
+  </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
     <Reference Include="System.Core" />
@@ -41,11 +44,18 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Program.cs" />
+    <Compile Include="BaseGameElements\GameElement.cs" />
+    <Compile Include="BaseGameElements\GameObject.cs" />
+    <Compile Include="BaseGameElements\IGameElement.cs" />
+    <Compile Include="BaseGameElements\IGameObject.cs" />
+    <Compile Include="BaseGameElements\IMotion.cs" />
+    <Compile Include="Enemy.cs" />
+    <Compile Include="Game.cs" />
+    <Compile Include="HealthScale.cs" />
+    <Compile Include="Laser.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="App.config" />
+    <Compile Include="Space.cs" />
+    <Compile Include="Spaceship.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
