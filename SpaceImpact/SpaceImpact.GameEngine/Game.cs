@@ -1,4 +1,5 @@
 ﻿using System;
+// review VD: непотрібні простори імен
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -24,6 +25,7 @@ namespace SpaceImpact.GameEngine
         private Space _space;
         private BattleSpace _battleSpace;
         private Random _random = new Random();
+        // review VD: потрібно зробити константою
         private int _enemiesCount = 3;
 
         #endregion
@@ -52,6 +54,7 @@ namespace SpaceImpact.GameEngine
         public GameStatus Status
         {
             get { return this._status; }
+            // review VD: завеликий відступ фігурної дужки
             }
 
         public Space GameSpace
@@ -120,6 +123,7 @@ namespace SpaceImpact.GameEngine
 
         #endregion
 
+        // review VD: навіщо цей регіон?
         #region Helpers
 
         #endregion

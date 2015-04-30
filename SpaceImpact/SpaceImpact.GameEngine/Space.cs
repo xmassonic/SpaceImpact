@@ -1,4 +1,5 @@
 ﻿using System;
+// review VD: непотрібні простори імен
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -91,6 +92,7 @@ namespace SpaceImpact.GameEngine
         #endregion
     }
 
+    // review VD: цей клас потрібно оглошувати в окремому файлі
     public class BattleSpace: Space
     {
         #region Fields

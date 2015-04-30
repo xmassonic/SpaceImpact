@@ -1,4 +1,5 @@
 ﻿using System;
+// review VD: непотрібні простори імен
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -36,6 +37,7 @@ namespace SpaceImpact.GameEngine
             }
         }
 
+        // review VD: навіщо модифікатор new?
         public new int IsAlive()
         {
             return (this.Life > 0 ? 1 : 0);
