@@ -2,12 +2,14 @@
 using System.Timers;
 using SpaceImpact.ConsoleUI.Map;
 using SpaceImpact.GameEngine;
-using Timer = System.Timers.Timer;
+// review VD: лишнє створення псевдоніму
+using Timer = System.Timers.Timer; 
 
 namespace SpaceImpact.ConsoleUI
 {
     class ConsoleControl
     {
+        // review VD: поле не повинно бути відкритим 
         public Game _game;
 
         public ConsoleControl(Game game)
@@ -78,8 +80,10 @@ namespace SpaceImpact.ConsoleUI
             while (true)
             {
                 ConsoleKeyInfo key = Console.ReadKey();
+                // review VD: тут доцільніше використати оператор switch
                 if (key.Key == ConsoleKey.Enter)
                 {
+                    // review VD: функцію Start() варто було б викликати з головної функції Main()
                     _game.Start();
                     cmap.DrawFrontier(_game);
                     cmap.DrawMap(_game);
@@ -123,10 +127,12 @@ namespace SpaceImpact.ConsoleUI
                         sc.DrawSpaceship(_game);
                     }
                 }
+                // review VD: навіщо ця умова, якщо жоден оператор не виконується?
                 else if (key.Key==ConsoleKey.Spacebar)
                 {
                     //_game.SpaceshipShoot(_game.Spaceship);
                 }
+                // review VD: умови варто відділити круглими дужками
                 else if (key.Key == ConsoleKey.Q || key.Key == ConsoleKey.Escape)
                 {
                     laserTimer.Enabled = false;

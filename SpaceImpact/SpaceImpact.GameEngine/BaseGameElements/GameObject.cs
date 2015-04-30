@@ -1,4 +1,5 @@
 ﻿using System;
+// review VD: непотрібні простори імен
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -10,6 +11,7 @@ namespace SpaceImpact.GameEngine.BaseGameElements
     {
         #region Fields
 
+        // review VD: не бачу необхідності оголошувати ці поля, якщо використовуються відподні проперті
         private Space _space = null;
         private BattleSpace _battleSpace = null;
         private int _x;

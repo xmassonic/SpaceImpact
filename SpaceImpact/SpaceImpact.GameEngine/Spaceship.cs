@@ -1,4 +1,5 @@
 ﻿using System;
+// review VD: непотрібні простори імен
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -9,6 +10,7 @@ namespace SpaceImpact.GameEngine
 {
     public class Spaceship: GameObject, IMotion
     {
+        // review VD: поле не повинно бути відкритим
         public List<Laser> _lasers = new List<Laser>();
 
         public Spaceship(int x, int y, int life) : base(x, y, life) { }
@@ -38,6 +40,7 @@ namespace SpaceImpact.GameEngine
             }
         }
 
+        // review VD: навіщо модифікатор new?
         public new int IsAlive()
         {
             return (this.Life > 0 ? 1 : 0);

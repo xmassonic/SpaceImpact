@@ -1,4 +1,5 @@
 ﻿using System;
+// review VD: непотрібні простори імен
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -10,6 +11,7 @@ namespace SpaceImpact.GameEngine.BaseGameElements
     {
         #region Fields
 
+        // reviwe VD: не бачу необхідності оголошувати це поле, якщо є властивість Space
         private Space _space = null;
         private int _x;
         private int _y;
@@ -18,6 +20,7 @@ namespace SpaceImpact.GameEngine.BaseGameElements
 
         #region Constructors
 
+        // review VD: навіщо в конструктор передається параметр life ?
         public GameElement(int x, int y, int life)
         {
             this._x = x;

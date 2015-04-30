@@ -1,4 +1,5 @@
 ﻿using System;
+// review VD: непотрібні простори імен
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -51,6 +52,7 @@ namespace SpaceImpact.ConsoleUI.Map
             {
                 Console.CursorTop = 1;
                 Console.CursorLeft = i + 1;
+                // review VD: тут варто поставити круглі дужки
                 if (i%8 == 0)
                 {
                     Console.Write(' ');
@@ -62,6 +64,7 @@ namespace SpaceImpact.ConsoleUI.Map
             {
                 Console.CursorTop = h;
                 Console.CursorLeft = i + 1;
+                // review VD: тут варто поставити круглі дужки
                 if (i%8 == 0)
                 {
                     Console.Write(' ');

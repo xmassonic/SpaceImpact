@@ -1,7 +1,11 @@
 ﻿using System;
+// review VD: непотрібний простір імен System.Collection.Generic
 using System.Collections.Generic;
+// review VD: непотрібний простір імен System.LINQ
 using System.Linq;
+// review VD: непотрібний простір імен System.Text
 using System.Text;
+// review VD: непотрібний простір імен System.Threading.Tasks
 using System.Threading.Tasks;
 using SpaceImpact.GameEngine;
 

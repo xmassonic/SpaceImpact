@@ -7,6 +7,7 @@ namespace SpaceImpact.ConsoleUI.Map
     {
         public static void Print(string message, int delay)
         {
+            // review VD: В рекомендаціях до проекту був пункт щодо уникнення використання потоків
             Thread.Sleep(delay);
             Console.WriteLine(message);
         }
@@ -31,6 +32,7 @@ namespace SpaceImpact.ConsoleUI.Map
 
             for (int i = 0; i <= 100; i++)
             {
+                // review VD: відсутні фігурні дужки
                 if (i < 25)
                     Console.ForegroundColor = ConsoleColor.Red;
                 else if (i < 50)
