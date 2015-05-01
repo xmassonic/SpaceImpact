@@ -61,6 +61,10 @@ namespace SpaceImpact.GameEngine.BaseGameElements
             protected set { this._life = value; }
         }
 
+        /*
+         * Review GY: цей метод продубльований у всіх похідних класах.
+         * Рекомендую зробити його віртуальним і вразі потреби перевизначати його в похідних класах.
+         */
         public int IsAlive()
         {
             return (this._life > 0 ? 1 : 0);

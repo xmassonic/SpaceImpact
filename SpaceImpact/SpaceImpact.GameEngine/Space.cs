@@ -91,6 +91,11 @@ namespace SpaceImpact.GameEngine
         #endregion
     }
 
+    /*
+    * Review GY: функціонал цього класу дуже схожий на функціонал батьківського класу.
+    * Рекомендую зменшити дублювання коду.
+    * Яке призначення класу BattleSpace?
+    */
     public class BattleSpace: Space
     {
         #region Fields

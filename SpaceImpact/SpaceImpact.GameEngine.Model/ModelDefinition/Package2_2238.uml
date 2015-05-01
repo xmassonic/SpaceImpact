@@ -1,0 +1,3056 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns:dm0="http://schemas.microsoft.com/VisualStudio/2008/DslTools/Core" xmlns:dm1="http://schemas.microsoft.com/dsltools/Kernel" xmlns:dm2="http://schemas.microsoft.com/dsltools/Component" xmlns:dm3="http://schemas.microsoft.com/dsltools/UseCase" xmlns:dm4="http://schemas.microsoft.com/dsltools/Activity" xmlns:dm5="http://schemas.microsoft.com/dsltools/Interaction" xmlns:dm6="http://schemas.microsoft.com/dsltools/UmlModelLibrary" xmlns:dm7="http://schemas.microsoft.com/dsltools/UmlDiagrams" xmlns:dm8="http://schemas.microsoft.com/dsltools/LogicalClassDesigner"
+  dslVersion="1.0.0.0"
+  Id="76e0cc03-beb8-487f-b49d-e453013a43e1"
+  name="BaseGameElements"
+  visibility="Private" xmlns="http://schemas.microsoft.com/dsltools/ModelStore">
+  <referencesInternal>
+    <reference
+      Id="fb994c90-5b63-4f02-b878-5010f9108397"
+      handle="viewcode://./CodeSchema_Namespace?Namespace%3DSpaceImpact.GameEngine.BaseGameElements"
+      tag="ViewCode" />
+  </referencesInternal>
+  <packagedElements>
+    <packageHasNamedElement>
+      <Interface
+        Id="70f4ad93-c5bd-4a2f-bfe4-3d899346c7b1"
+        name="IMotion"
+        isAbstract="false"
+        isLeaf="false">
+        <referencesInternal>
+          <reference
+            Id="3b9e3d42-7a8a-409b-8d02-75f95d60f9ec"
+            handle="viewcode://./CodeSchema_Interface?Assembly%3D&quot;file:%2F%2F%2FD:%2FIT Lab%2FBarabash%2FSpaceImpact%2FSpaceImpact%2FSpaceImpact.GameEngine%2Fbin%2FDebug%2FSpaceImpact.GameEngine.dll&quot; Namespace%3DSpaceImpact.GameEngine.BaseGameElements Type%3DIMotion"
+            tag="ViewCode" />
+        </referencesInternal>
+        <appliedStereotypesInternal>
+          <stereotypeInstance
+            Id="06c33c35-5188-4b4a-b009-594f07596282"
+            name="interface"
+            profile="CSharpProfile">
+            <propertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="98e4738f-741d-4ed4-be47-83c70609f914">
+                <propertyInstance
+                  Id="eb2fc283-9aad-4d59-a25c-9ed6c3b9ecb4"
+                  name="ClrAttributes" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="03283f0a-b3ce-4f9d-a923-e696f78a9326">
+                <propertyInstance
+                  Id="132ab132-f2f6-4616-80e7-e36b60d22bde"
+                  name="IsPartial"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="c4ba2040-801b-4964-941b-2c4538662a87">
+                <propertyInstance
+                  Id="05373f1c-085e-4ecf-94ae-2e6598e4acf8"
+                  name="IsUnsafe"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="8e694ca0-3b9a-4073-8088-f7202a4a6aef">
+                <propertyInstance
+                  Id="157acff8-993b-45fd-aaf5-92ad6e684b60"
+                  name="PackageVisibility"
+                  value="internal" />
+              </stereotypeInstanceHasPropertyInstances>
+            </propertyInstances>
+          </stereotypeInstance>
+        </appliedStereotypesInternal>
+        <ownedOperations>
+          <operation
+            Id="6b20071b-8606-4401-9be6-e6deccc2dca7"
+            name="Motion"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="true"
+            concurrency="Sequential"
+            isQuery="false">
+            <referencesInternal>
+              <reference
+                Id="ec853efd-9c14-4318-912b-bc4cb6c9b714"
+                handle="viewcode://./CodeSchema_Method?Assembly%3D&quot;file:%2F%2F%2FD:%2FIT Lab%2FBarabash%2FSpaceImpact%2FSpaceImpact%2FSpaceImpact.GameEngine%2Fbin%2FDebug%2FSpaceImpact.GameEngine.dll&quot; Namespace%3DSpaceImpact.GameEngine.BaseGameElements Type%3DIMotion Member%3D(Name%3DMotion OverloadingParameters%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DInt32)%2C(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DInt32)])"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="23e50477-44b1-4e24-b7e4-f9ff2f733b26"
+                name="method"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="ee1f8bbc-ea15-4147-bf6d-c545a825c1ba">
+                    <propertyInstance
+                      Id="1e022972-aa91-44a8-8466-b0879e84ba2a"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="4345a6a8-a019-415b-8653-cd0fdb95a2ec">
+                    <propertyInstance
+                      Id="df53c34d-0215-49fe-ae3f-2387866d8ab7"
+                      name="IsPartial"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="84eca798-a294-4fe4-848a-1911c9de9d16">
+                    <propertyInstance
+                      Id="da196ae3-c497-4fed-8c93-44bfa5e460d0"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="eeceb2d1-f886-41c6-9e74-835dd445612f">
+                    <propertyInstance
+                      Id="40d659cd-2159-487c-aebc-da4c6d399ab1"
+                      name="Inheritance"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="2f809f9e-d863-4345-a0c9-c7269a2a4e86">
+                    <propertyInstance
+                      Id="ae725f27-0e96-4c3d-8147-b18d89284e8a"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="aea17c4f-cd46-4955-a6d5-7bf184dd8b51">
+                    <propertyInstance
+                      Id="8265a6e9-24a7-4374-b1cb-419d9227d42c"
+                      name="params"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <ownedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="5160a834-6e6c-43c9-bedc-459db369466b"
+                  name="dx"
+                  direction="In">
+                  <referencesInternal>
+                    <reference
+                      Id="dff8bfe8-2625-46e7-ae0b-b572c7715ad9"
+                      handle="viewcode://./CodeSchema_Parameter?Assembly%3D&quot;file:%2F%2F%2FD:%2FIT Lab%2FBarabash%2FSpaceImpact%2FSpaceImpact%2FSpaceImpact.GameEngine%2Fbin%2FDebug%2FSpaceImpact.GameEngine.dll&quot; Namespace%3DSpaceImpact.GameEngine.BaseGameElements Type%3DIMotion Member%3D(Name%3DMotion OverloadingParameters%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DInt32)%2C(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DInt32)]) ParameterIdentifier%3Ddx"
+                      tag="ViewCode" />
+                  </referencesInternal>
+                  <type_NamedElement>
+                    <primitiveTypeMoniker
+                      Id="220a3521-e091-4221-bae9-3ef9018e845c"
+                      LastKnownName="Integer"
+                      LastKnownLocation="SpaceImpact.GameEngine.Model.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="517b27aa-e893-413a-b6e5-522326ec259a"
+                  name="dy"
+                  direction="In">
+                  <referencesInternal>
+                    <reference
+                      Id="170eab4a-85bd-4722-a47f-1c46400b0946"
+                      handle="viewcode://./CodeSchema_Parameter?Assembly%3D&quot;file:%2F%2F%2FD:%2FIT Lab%2FBarabash%2FSpaceImpact%2FSpaceImpact%2FSpaceImpact.GameEngine%2Fbin%2FDebug%2FSpaceImpact.GameEngine.dll&quot; Namespace%3DSpaceImpact.GameEngine.BaseGameElements Type%3DIMotion Member%3D(Name%3DMotion OverloadingParameters%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DInt32)%2C(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DInt32)]) ParameterIdentifier%3Ddy"
+                      tag="ViewCode" />
+                  </referencesInternal>
+                  <type_NamedElement>
+                    <primitiveTypeMoniker
+                      Id="220a3521-e091-4221-bae9-3ef9018e845c"
+                      LastKnownName="Integer"
+                      LastKnownLocation="SpaceImpact.GameEngine.Model.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+            </ownedParameters>
+          </operation>
+        </ownedOperations>
+      </Interface>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <class
+        Id="6e7a1d56-c084-4c30-b4e3-99466017b07e"
+        name="GameObject"
+        isAbstract="false"
+        isLeaf="false"
+        isActiveClass="false">
+        <referencesInternal>
+          <reference
+            Id="8beb9f52-d868-41e3-8c7c-dc9b263498b4"
+            handle="viewcode://./CodeSchema_Class?Assembly%3D&quot;file:%2F%2F%2FD:%2FIT Lab%2FBarabash%2FSpaceImpact%2FSpaceImpact%2FSpaceImpact.GameEngine%2Fbin%2FDebug%2FSpaceImpact.GameEngine.dll&quot; Namespace%3DSpaceImpact.GameEngine.BaseGameElements Type%3DGameObject"
+            tag="ViewCode" />
+        </referencesInternal>
+        <appliedStereotypesInternal>
+          <stereotypeInstance
+            Id="df11d2c7-a74c-4c61-adb4-67804c97e5dc"
+            name="class"
+            profile="CSharpProfile">
+            <propertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="acf4e320-c4d1-4eeb-a9a6-deaf0dde08a5">
+                <propertyInstance
+                  Id="672cee71-4037-4077-846a-00c1a609e568"
+                  name="ClrAttributes" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="b8539802-9331-4808-b1fe-851a7add05ec">
+                <propertyInstance
+                  Id="f8874b6c-84f8-455d-b08e-e75fbdf33c1f"
+                  name="IsPartial"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="bc2bedc8-a2e5-407a-a935-7c04b736da7a">
+                <propertyInstance
+                  Id="c9e63718-b53f-40b3-8abd-99237881cd9c"
+                  name="IsStatic"
+                  value="False" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="3c8ac448-2538-4b92-83a4-c1155ea68361">
+                <propertyInstance
+                  Id="b012c27d-71c6-4020-9eb5-505c5bb0587d"
+                  name="IsUnsafe"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="bc41b128-93f7-4052-8560-ab4bf5809677">
+                <propertyInstance
+                  Id="ee122480-b861-436b-a4d0-c9e1afa22378"
+                  name="PackageVisibility"
+                  value="internal" />
+              </stereotypeInstanceHasPropertyInstances>
+            </propertyInstances>
+          </stereotypeInstance>
+        </appliedStereotypesInternal>
+        <suppliersInternal>
+          <interfaceRealization
+            Id="7c620555-54b8-4039-af7c-2d3973bb7aa3">
+            <interfaceMoniker
+              Id="480285de-0af3-4fe4-abac-4855dc7efe08"
+              LastKnownName="IGameObject"
+              LastKnownLocation="Package2_2238.uml" />
+          </interfaceRealization>
+        </suppliersInternal>
+        <targetEnds>
+          <association
+            Id="aa96e36c-6a9f-42c3-b7e2-f85bdfe4d693"
+            isDerived="false"
+            sourceEndRoleName="GameObject"
+            targetEndRoleName="Space"
+            isLeaf="false"
+            isAbstract="false">
+            <classMoniker
+              Id="0d1a4ba7-7bc7-418b-b089-47a7850c03c6"
+              LastKnownName="Space"
+              LastKnownLocation="Package1_2238.uml" />
+            <description>Property Space references type Space.</description>
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="9cc78e7c-1ed3-4e9c-b380-fc416b44d340"
+                  name="GameObject"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false"
+                  isNavigableOwned="false">
+                  <lowerValueInternal>
+                    <literalString
+                      Id="6197d6c2-f69d-40c3-83c2-deeb16596672"
+                      name="Lower"
+                      value="*" />
+                  </lowerValueInternal>
+                  <upperValueInternal>
+                    <literalString
+                      Id="bbfff718-6cd9-4b7e-8850-4a8bf6e2436e"
+                      name="Upper"
+                      value="*" />
+                  </upperValueInternal>
+                </memberEnd>
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="e6ade045-c275-4c49-aa76-0c4e9cc66890"
+                  name="Space"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false">
+                  <lowerValueInternal>
+                    <literalString
+                      Id="8fca9ec7-8e39-47ef-9b09-4a0a84f4b58e"
+                      name="Lower"
+                      value="1" />
+                  </lowerValueInternal>
+                  <upperValueInternal>
+                    <literalString
+                      Id="b23a1055-c8a6-4f24-b1b4-20f9fac1a380"
+                      name="Upper"
+                      value="1" />
+                  </upperValueInternal>
+                </memberEnd>
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+          </association>
+          <association
+            Id="364adeed-cc96-4cd0-bdda-02d2867bbe8d"
+            isDerived="false"
+            sourceEndRoleName="GameObject"
+            targetEndRoleName="BattleSpace"
+            isLeaf="false"
+            isAbstract="false">
+            <classMoniker
+              Id="6c2c1ec8-37fe-4806-8328-e0311871d8c6"
+              LastKnownName="BattleSpace"
+              LastKnownLocation="Package1_2238.uml" />
+            <description>Property BattleSpace references type BattleSpace.</description>
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="e3671749-4469-42ca-a472-d412525b5963"
+                  name="GameObject"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false"
+                  isNavigableOwned="false">
+                  <lowerValueInternal>
+                    <literalString
+                      Id="48ca7f9a-109e-4b3d-af66-524ac1943e95"
+                      name="Lower"
+                      value="*" />
+                  </lowerValueInternal>
+                  <upperValueInternal>
+                    <literalString
+                      Id="d0ebffe2-9016-4b49-ab46-6392251f3847"
+                      name="Upper"
+                      value="*" />
+                  </upperValueInternal>
+                </memberEnd>
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="cf4c5fe9-64fd-4199-8c18-72fa9c7ae820"
+                  name="BattleSpace"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false">
+                  <lowerValueInternal>
+                    <literalString
+                      Id="408fedf3-f306-4132-8250-b5e581b95b81"
+                      name="Lower"
+                      value="1" />
+                  </lowerValueInternal>
+                  <upperValueInternal>
+                    <literalString
+                      Id="6b3758b0-3a2a-4148-915c-bc5c2db03db2"
+                      name="Upper"
+                      value="1" />
+                  </upperValueInternal>
+                </memberEnd>
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+          </association>
+        </targetEnds>
+        <ownedAttributesInternal>
+          <property
+            Id="67733133-ee8e-426a-afea-7b9604aaaa37"
+            name="Space"
+            isLeaf="false"
+            isStatic="false"
+            isReadOnly="false"
+            isDerived="false"
+            isDerivedUnion="false"
+            aggregation="None"
+            isComposite="false">
+            <referencesInternal>
+              <reference
+                Id="bb89d71c-5a9a-4fda-994e-c51c9b96d7e2"
+                handle="viewcode://./CodeSchema_Property?Assembly%3D&quot;file:%2F%2F%2FD:%2FIT Lab%2FBarabash%2FSpaceImpact%2FSpaceImpact%2FSpaceImpact.GameEngine%2Fbin%2FDebug%2FSpaceImpact.GameEngine.dll&quot; Namespace%3DSpaceImpact.GameEngine.BaseGameElements Type%3DGameObject Member%3DSpace"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="c569f477-127a-4da4-b6df-6e6bdb4e4e6c"
+                name="property"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="6a294040-c523-4001-9762-650d6fd9f8b8">
+                    <propertyInstance
+                      Id="f9d34333-c002-46a6-a482-f178f3f5c01c"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="92368a5b-737b-4e29-a3c5-55d3c449d7d5">
+                    <propertyInstance
+                      Id="95df338e-2b04-41b8-bf6b-6c0aac57f8e2"
+                      name="Get"
+                      value="public" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="c01fe85e-53aa-4a27-9d87-d1825253ee10">
+                    <propertyInstance
+                      Id="b47e21d0-581b-42dd-a0ea-1d0918198297"
+                      name="HasBody"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="c7c7ea26-9bad-4ac5-ba22-8ae6952406a0">
+                    <propertyInstance
+                      Id="32b3acbb-8dbc-4d8a-a5a7-f9fdb3317eaa"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="b05acdf6-2152-4d60-97c0-b909a5f1db87">
+                    <propertyInstance
+                      Id="f26235c9-6ddf-41ca-973c-266bbceec79f"
+                      name="Inheritance"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="4569c7f7-8b43-4cb7-ae0e-3b864a77711f">
+                    <propertyInstance
+                      Id="f887c299-2bc5-40c8-aca1-52732f372192"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="fc0b6b42-1d8f-40f1-856d-637479876cac">
+                    <propertyInstance
+                      Id="9e298d48-cf9e-4833-976d-5399e47b0644"
+                      name="Set"
+                      value="public" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <type_NamedElement>
+              <classMoniker
+                Id="0d1a4ba7-7bc7-418b-b089-47a7850c03c6"
+                LastKnownName="Space"
+                LastKnownLocation="Package1_2238.uml" />
+            </type_NamedElement>
+          </property>
+          <property
+            Id="7ab48c2c-c966-46ac-86bb-8e5a73af85ab"
+            name="X"
+            isLeaf="false"
+            isStatic="false"
+            isReadOnly="false"
+            isDerived="false"
+            isDerivedUnion="false"
+            aggregation="None"
+            isComposite="false">
+            <referencesInternal>
+              <reference
+                Id="436e5abf-7aa5-451a-9792-173bf1aa98e5"
+                handle="viewcode://./CodeSchema_Property?Assembly%3D&quot;file:%2F%2F%2FD:%2FIT Lab%2FBarabash%2FSpaceImpact%2FSpaceImpact%2FSpaceImpact.GameEngine%2Fbin%2FDebug%2FSpaceImpact.GameEngine.dll&quot; Namespace%3DSpaceImpact.GameEngine.BaseGameElements Type%3DGameObject Member%3DX"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="56f26222-3b34-4750-be31-2f8c603056e9"
+                name="property"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="6830ddbf-30e4-4189-a6f4-ab6dc612fd94">
+                    <propertyInstance
+                      Id="b156b292-0195-4aac-9dbd-40050ea3ba08"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="3d062960-b9a6-42c4-be41-833261425372">
+                    <propertyInstance
+                      Id="dae382f4-1c24-4432-9029-c475863b5afc"
+                      name="Get"
+                      value="public" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="895ad510-2f44-49a3-bbee-c177152c3341">
+                    <propertyInstance
+                      Id="52178150-3edf-47e7-b141-2b202c564de3"
+                      name="HasBody"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="d6f50ea9-1419-4920-ab34-032efca1e491">
+                    <propertyInstance
+                      Id="e5ddea9b-eebb-44d0-beea-8dd9160bf4db"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="eef16c67-3ad8-43c6-abe6-7d33cd36a02b">
+                    <propertyInstance
+                      Id="3a8ddd54-ce68-4f5e-92b2-873e8c20404f"
+                      name="Inheritance"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="7d519572-d89f-4515-b39c-2b916374932f">
+                    <propertyInstance
+                      Id="8e69d4be-f91e-4f9a-86c2-efeee00d1a39"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="55a0107d-9a7c-40d3-9882-7afa2598d4c9">
+                    <propertyInstance
+                      Id="f36c7386-d105-498b-81b9-18889b84b132"
+                      name="Set"
+                      value="public" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <type_NamedElement>
+              <primitiveTypeMoniker
+                Id="220a3521-e091-4221-bae9-3ef9018e845c"
+                LastKnownName="Integer"
+                LastKnownLocation="SpaceImpact.GameEngine.Model.uml" />
+            </type_NamedElement>
+          </property>
+          <property
+            Id="f6a455c6-6119-49de-a3ae-508725add00b"
+            name="Y"
+            isLeaf="false"
+            isStatic="false"
+            isReadOnly="false"
+            isDerived="false"
+            isDerivedUnion="false"
+            aggregation="None"
+            isComposite="false">
+            <referencesInternal>
+              <reference
+                Id="3bd10a21-a282-446f-8d07-e5e084bac98c"
+                handle="viewcode://./CodeSchema_Property?Assembly%3D&quot;file:%2F%2F%2FD:%2FIT Lab%2FBarabash%2FSpaceImpact%2FSpaceImpact%2FSpaceImpact.GameEngine%2Fbin%2FDebug%2FSpaceImpact.GameEngine.dll&quot; Namespace%3DSpaceImpact.GameEngine.BaseGameElements Type%3DGameObject Member%3DY"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="3a5e20ea-f984-4cc9-aec9-3bc8008162f2"
+                name="property"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="2bab081e-1f27-4f76-ac0b-a2b2f4c5312e">
+                    <propertyInstance
+                      Id="b6ec3922-3545-4491-bac6-29b279882dc1"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="6ade845b-4238-4a9f-b6b0-9ac5fc5c1947">
+                    <propertyInstance
+                      Id="c7c7d036-ab57-46d0-b70e-83923de5c9be"
+                      name="Get"
+                      value="public" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="19713315-3c7f-48b4-a499-b42b83eaff8b">
+                    <propertyInstance
+                      Id="d9500b40-d485-44dc-947f-267fafebb874"
+                      name="HasBody"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="21cd218a-7f5a-4002-8016-5a0aa0582000">
+                    <propertyInstance
+                      Id="5f8ffefb-53f9-4ffc-9675-01cf9130c172"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="9cc67150-74ef-47c4-8a13-7327ec1ae626">
+                    <propertyInstance
+                      Id="67190c99-a9df-41d9-b5d2-c97760fea76e"
+                      name="Inheritance"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="17990876-60cc-4ef5-bd29-aa28486cedd5">
+                    <propertyInstance
+                      Id="d3af2f13-c4ac-4dde-9eeb-d928b2326aa5"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="21bee598-870b-418e-bbc6-25ad846ccf94">
+                    <propertyInstance
+                      Id="425a8236-9286-4f75-ad36-bcfaa747cf9b"
+                      name="Set"
+                      value="public" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <type_NamedElement>
+              <primitiveTypeMoniker
+                Id="220a3521-e091-4221-bae9-3ef9018e845c"
+                LastKnownName="Integer"
+                LastKnownLocation="SpaceImpact.GameEngine.Model.uml" />
+            </type_NamedElement>
+          </property>
+          <property
+            Id="7632a8b0-ba42-4fb1-908a-f97547534a5f"
+            name="BattleSpace"
+            isLeaf="false"
+            isStatic="false"
+            isReadOnly="false"
+            isDerived="false"
+            isDerivedUnion="false"
+            aggregation="None"
+            isComposite="false">
+            <referencesInternal>
+              <reference
+                Id="9c8c584a-0a56-4466-a66c-03dd63dbbb9c"
+                handle="viewcode://./CodeSchema_Property?Assembly%3D&quot;file:%2F%2F%2FD:%2FIT Lab%2FBarabash%2FSpaceImpact%2FSpaceImpact%2FSpaceImpact.GameEngine%2Fbin%2FDebug%2FSpaceImpact.GameEngine.dll&quot; Namespace%3DSpaceImpact.GameEngine.BaseGameElements Type%3DGameObject Member%3DBattleSpace"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="777582c8-71f7-42ff-925b-1ab52d222400"
+                name="property"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="a7950c7e-12f6-4df2-8cc8-decaf61af537">
+                    <propertyInstance
+                      Id="a83c7faf-30ed-4191-a96f-56b104c22548"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="07ce5ed6-cd2d-4bd1-9d48-a7aaa50ec789">
+                    <propertyInstance
+                      Id="a9274e2f-1342-4ea7-8311-6479618044cc"
+                      name="Get"
+                      value="public" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="99c11011-0f66-49b3-82db-4e62eb94de69">
+                    <propertyInstance
+                      Id="13b811aa-4260-4aba-8c24-635ed5fea34e"
+                      name="HasBody"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="1c6d816c-f83b-4c44-b005-bc93132c2ac1">
+                    <propertyInstance
+                      Id="015c3f8f-80a5-4d7f-bc6d-5ae4bad20538"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="64c26b07-812a-481f-8f12-76d747d08471">
+                    <propertyInstance
+                      Id="23953ee9-9a30-41ce-b932-0e079fb30375"
+                      name="Inheritance"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="1a06e4a0-814e-44ed-8143-02ef734869ad">
+                    <propertyInstance
+                      Id="e006413a-835b-456a-931f-c43e99ceb2ba"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="faca220e-f9d6-4d55-9bce-97ca2f29a606">
+                    <propertyInstance
+                      Id="ab02985b-5133-4f43-b2a8-457e8fa90dbf"
+                      name="Set"
+                      value="public" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <type_NamedElement>
+              <classMoniker
+                Id="6c2c1ec8-37fe-4806-8328-e0311871d8c6"
+                LastKnownName="BattleSpace"
+                LastKnownLocation="Package1_2238.uml" />
+            </type_NamedElement>
+          </property>
+          <property
+            Id="73287f2b-bb18-4fc5-909e-6843e187330f"
+            name="Life"
+            isLeaf="false"
+            isStatic="false"
+            isReadOnly="false"
+            isDerived="false"
+            isDerivedUnion="false"
+            aggregation="None"
+            isComposite="false">
+            <referencesInternal>
+              <reference
+                Id="35083459-8cc1-4192-9fad-5d9f66e8005b"
+                handle="viewcode://./CodeSchema_Property?Assembly%3D&quot;file:%2F%2F%2FD:%2FIT Lab%2FBarabash%2FSpaceImpact%2FSpaceImpact%2FSpaceImpact.GameEngine%2Fbin%2FDebug%2FSpaceImpact.GameEngine.dll&quot; Namespace%3DSpaceImpact.GameEngine.BaseGameElements Type%3DGameObject Member%3DLife"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="b9dbb079-19fc-4c39-b16e-dbf30bf76f27"
+                name="property"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="96cfc9ee-881a-48e8-ab8e-530bead69c6e">
+                    <propertyInstance
+                      Id="87518e43-75af-44b8-a2ab-90101306c89f"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="6140290d-ede6-438d-b119-d8180f82cf73">
+                    <propertyInstance
+                      Id="d0fea341-6793-4004-a0e4-e8c41bcd7953"
+                      name="Get"
+                      value="public" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="19ebd608-eee7-4787-a491-8046cb91c047">
+                    <propertyInstance
+                      Id="dede8450-5310-44e0-9cd2-bac948a3b73f"
+                      name="HasBody"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="cb3975fc-f9dd-4086-887c-c2f99ead26a5">
+                    <propertyInstance
+                      Id="d0c72b8e-15bc-4208-b806-6caf984891ee"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="e3e8efd4-82c2-4808-ab90-9713b08a5cb1">
+                    <propertyInstance
+                      Id="be99b919-c248-4471-a44e-e86faa7789c5"
+                      name="Inheritance"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="ad179068-d913-4f38-8c0d-9d2e8fb2f1ca">
+                    <propertyInstance
+                      Id="a7f61012-9c8d-4086-979b-da5185f0ff7e"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="99829801-1efd-4bbb-bbd1-ceea4961823e">
+                    <propertyInstance
+                      Id="6e7fdafb-14f4-45b5-9116-8bb06ff96552"
+                      name="Set"
+                      value="public" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <type_NamedElement>
+              <primitiveTypeMoniker
+                Id="220a3521-e091-4221-bae9-3ef9018e845c"
+                LastKnownName="Integer"
+                LastKnownLocation="SpaceImpact.GameEngine.Model.uml" />
+            </type_NamedElement>
+          </property>
+          <property
+            Id="0679b8e2-3b42-4772-b321-b527dd73d73b"
+            name="_battleSpace"
+            visibility="Private"
+            isLeaf="false"
+            isStatic="false"
+            isReadOnly="false"
+            isDerived="false"
+            isDerivedUnion="false"
+            aggregation="None"
+            isComposite="false">
+            <referencesInternal>
+              <reference
+                Id="da923183-b671-4d94-a885-9d313e0afd46"
+                handle="viewcode://./CodeSchema_Field?Assembly%3D&quot;file:%2F%2F%2FD:%2FIT Lab%2FBarabash%2FSpaceImpact%2FSpaceImpact%2FSpaceImpact.GameEngine%2Fbin%2FDebug%2FSpaceImpact.GameEngine.dll&quot; Namespace%3DSpaceImpact.GameEngine.BaseGameElements Type%3DGameObject Member%3D_battleSpace"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="3e9addae-96ba-449d-b2e1-771cddd5841a"
+                name="field"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="60fe2695-4f88-4a72-a55e-ca8baaf29b8f">
+                    <propertyInstance
+                      Id="43d1a1e2-d264-4e82-b8e2-c76ae4b6da41"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="3888bf1e-4aab-4290-b1de-73f40844d2db">
+                    <propertyInstance
+                      Id="00a37991-fa99-4aa9-a280-c233d2df7627"
+                      name="IsConst"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="451c2e01-20f4-485e-a1c4-ddd6350ba6a4">
+                    <propertyInstance
+                      Id="5124d2a3-ee0d-4477-8b7f-af9f50d5a8c2"
+                      name="IsNullable"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="84119b1b-89f6-4b58-9e26-f51f6c86d5dc">
+                    <propertyInstance
+                      Id="30a4679b-d40f-4a71-9624-113f232107c1"
+                      name="IsVolatile"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="6068de55-9dbe-4e71-be9d-b053163c2ccc">
+                    <propertyInstance
+                      Id="a36ef13e-8a20-4902-94d5-940f2b887a95"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <type_NamedElement>
+              <classMoniker
+                Id="6c2c1ec8-37fe-4806-8328-e0311871d8c6"
+                LastKnownName="BattleSpace"
+                LastKnownLocation="Package1_2238.uml" />
+            </type_NamedElement>
+          </property>
+          <property
+            Id="28d6acd5-0983-4461-a7e3-ca88548210f5"
+            name="_life"
+            visibility="Private"
+            isLeaf="false"
+            isStatic="false"
+            isReadOnly="false"
+            isDerived="false"
+            isDerivedUnion="false"
+            aggregation="None"
+            isComposite="false">
+            <referencesInternal>
+              <reference
+                Id="ade60c06-3a3e-42f1-b25d-d392ce8ba45b"
+                handle="viewcode://./CodeSchema_Field?Assembly%3D&quot;file:%2F%2F%2FD:%2FIT Lab%2FBarabash%2FSpaceImpact%2FSpaceImpact%2FSpaceImpact.GameEngine%2Fbin%2FDebug%2FSpaceImpact.GameEngine.dll&quot; Namespace%3DSpaceImpact.GameEngine.BaseGameElements Type%3DGameObject Member%3D_life"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="5d409915-f42a-46d1-8311-6b044bbacf62"
+                name="field"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="d3488d92-6bfc-4a08-bfff-356709b7ef26">
+                    <propertyInstance
+                      Id="7940ec7b-29ff-46aa-a334-8c5764d2be48"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="9e827fd1-a7ff-41ad-8e23-4fe963fa5ef5">
+                    <propertyInstance
+                      Id="15dadda0-1d8a-49e4-92df-7d0834b4abfb"
+                      name="IsConst"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="0f01b343-88c2-4179-a94e-5f6cd66a55e2">
+                    <propertyInstance
+                      Id="9d96f9c3-d1bd-4b69-aa84-fdd6df622f2c"
+                      name="IsNullable"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="e80eae96-5821-43c0-9337-9a718daac8be">
+                    <propertyInstance
+                      Id="fbca61f9-bcc2-43ad-a7da-f91c5182aa58"
+                      name="IsVolatile"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="386d19cd-6e1d-4ed5-866c-0fc693d7d8eb">
+                    <propertyInstance
+                      Id="ab03d082-731b-43bf-acbe-869398305ffc"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <type_NamedElement>
+              <primitiveTypeMoniker
+                Id="220a3521-e091-4221-bae9-3ef9018e845c"
+                LastKnownName="Integer"
+                LastKnownLocation="SpaceImpact.GameEngine.Model.uml" />
+            </type_NamedElement>
+          </property>
+          <property
+            Id="1b1a6627-585f-4458-995d-0f01643d0b58"
+            name="_space"
+            visibility="Private"
+            isLeaf="false"
+            isStatic="false"
+            isReadOnly="false"
+            isDerived="false"
+            isDerivedUnion="false"
+            aggregation="None"
+            isComposite="false">
+            <referencesInternal>
+              <reference
+                Id="d846fdf6-5889-4dee-a61c-9ab1f4aaff4c"
+                handle="viewcode://./CodeSchema_Field?Assembly%3D&quot;file:%2F%2F%2FD:%2FIT Lab%2FBarabash%2FSpaceImpact%2FSpaceImpact%2FSpaceImpact.GameEngine%2Fbin%2FDebug%2FSpaceImpact.GameEngine.dll&quot; Namespace%3DSpaceImpact.GameEngine.BaseGameElements Type%3DGameObject Member%3D_space"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="880e0316-611c-4a2d-af1c-2d6c57a81ed4"
+                name="field"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="57fd35f7-1979-49ac-81e8-ac2a28642d99">
+                    <propertyInstance
+                      Id="bd98fe12-cb6e-4863-a673-b999c8da8852"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="c29c9201-6c9a-40a3-b079-f8bf78acd761">
+                    <propertyInstance
+                      Id="d523bb1e-1b4e-46c0-8be8-75f8c83d3306"
+                      name="IsConst"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="6bb9df77-401d-4737-81ff-3fd57919331d">
+                    <propertyInstance
+                      Id="7bebe792-cb14-45ed-a6f7-be450f2e78af"
+                      name="IsNullable"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="a6e64cdb-7374-4434-9c28-7e6a870f3b32">
+                    <propertyInstance
+                      Id="0a56e4e1-4352-4155-bd08-c24fe15b9d0d"
+                      name="IsVolatile"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="4d524dd4-b31f-4bdf-a95b-9f8b8165265b">
+                    <propertyInstance
+                      Id="dcba3f5e-9daa-42e2-be40-6475bf0eb32d"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <type_NamedElement>
+              <classMoniker
+                Id="0d1a4ba7-7bc7-418b-b089-47a7850c03c6"
+                LastKnownName="Space"
+                LastKnownLocation="Package1_2238.uml" />
+            </type_NamedElement>
+          </property>
+          <property
+            Id="893c6f69-2c93-4612-abe4-151d8324e63e"
+            name="_x"
+            visibility="Private"
+            isLeaf="false"
+            isStatic="false"
+            isReadOnly="false"
+            isDerived="false"
+            isDerivedUnion="false"
+            aggregation="None"
+            isComposite="false">
+            <referencesInternal>
+              <reference
+                Id="6ac8eea0-252c-44cc-8e8c-ca02fd479e2f"
+                handle="viewcode://./CodeSchema_Field?Assembly%3D&quot;file:%2F%2F%2FD:%2FIT Lab%2FBarabash%2FSpaceImpact%2FSpaceImpact%2FSpaceImpact.GameEngine%2Fbin%2FDebug%2FSpaceImpact.GameEngine.dll&quot; Namespace%3DSpaceImpact.GameEngine.BaseGameElements Type%3DGameObject Member%3D_x"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="9847c508-9d98-4098-ae6c-b11d94d42e34"
+                name="field"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="6ad85c48-abab-444d-9482-b7181211742f">
+                    <propertyInstance
+                      Id="8efe8320-0be1-44e3-b376-ba555425d13e"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="af2ac209-00a9-4179-be1d-dec20d70da05">
+                    <propertyInstance
+                      Id="4c0a079e-95c1-489a-84ae-825aaa4824b6"
+                      name="IsConst"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="f9d6e908-9695-4220-9136-9f5f392e4018">
+                    <propertyInstance
+                      Id="5eed443a-9383-4205-86bc-43384f41d6c5"
+                      name="IsNullable"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="cdd2c072-6628-4607-a1e4-6467200ebfb7">
+                    <propertyInstance
+                      Id="8ebbe2be-5fea-4ded-8d88-ef1bee361c88"
+                      name="IsVolatile"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="6dc634e3-3075-4778-b515-ed04ae0eeda5">
+                    <propertyInstance
+                      Id="e6f495df-98f5-42ee-ad06-44fef9f94be8"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <type_NamedElement>
+              <primitiveTypeMoniker
+                Id="220a3521-e091-4221-bae9-3ef9018e845c"
+                LastKnownName="Integer"
+                LastKnownLocation="SpaceImpact.GameEngine.Model.uml" />
+            </type_NamedElement>
+          </property>
+          <property
+            Id="878f1d4b-af70-4ac1-8c57-31db41797eae"
+            name="_y"
+            visibility="Private"
+            isLeaf="false"
+            isStatic="false"
+            isReadOnly="false"
+            isDerived="false"
+            isDerivedUnion="false"
+            aggregation="None"
+            isComposite="false">
+            <referencesInternal>
+              <reference
+                Id="17c3604c-5a05-476c-8b58-f04d6fbe7c2c"
+                handle="viewcode://./CodeSchema_Field?Assembly%3D&quot;file:%2F%2F%2FD:%2FIT Lab%2FBarabash%2FSpaceImpact%2FSpaceImpact%2FSpaceImpact.GameEngine%2Fbin%2FDebug%2FSpaceImpact.GameEngine.dll&quot; Namespace%3DSpaceImpact.GameEngine.BaseGameElements Type%3DGameObject Member%3D_y"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="028a3db9-9dad-402b-b4ea-8c071549765f"
+                name="field"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="ec9af133-dbf3-4e92-a5fb-6a7815ddc88e">
+                    <propertyInstance
+                      Id="e938e6bc-91c4-42c0-9f25-b8dcf56ee578"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="05e5f6ad-bc18-4d8b-8958-35f52b8e1947">
+                    <propertyInstance
+                      Id="2bade66c-316d-41ce-9694-720bb7feba91"
+                      name="IsConst"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="b4cf4a55-d430-4ce9-8153-651623b77d81">
+                    <propertyInstance
+                      Id="f0f899de-37c6-4fb5-9171-513495b7d42d"
+                      name="IsNullable"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="646ef5b6-655a-49fd-a4bf-6826edafdd66">
+                    <propertyInstance
+                      Id="b22620f2-4f5a-42d0-bc70-1db3b3e10d60"
+                      name="IsVolatile"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="0d842065-76ec-4945-aaf0-c22184751e59">
+                    <propertyInstance
+                      Id="64edfd09-eb88-4029-a22e-9e6cb497a899"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <type_NamedElement>
+              <primitiveTypeMoniker
+                Id="220a3521-e091-4221-bae9-3ef9018e845c"
+                LastKnownName="Integer"
+                LastKnownLocation="SpaceImpact.GameEngine.Model.uml" />
+            </type_NamedElement>
+          </property>
+        </ownedAttributesInternal>
+        <ownedOperationsInternal>
+          <operation
+            Id="e8dfe5b4-daf1-4e5f-b94d-63d6eace7d0b"
+            name="GameObject"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false">
+            <referencesInternal>
+              <reference
+                Id="76376878-a337-4ab7-adf0-3135dd3006d4"
+                handle="viewcode://./CodeSchema_Method?Assembly%3D&quot;file:%2F%2F%2FD:%2FIT Lab%2FBarabash%2FSpaceImpact%2FSpaceImpact%2FSpaceImpact.GameEngine%2Fbin%2FDebug%2FSpaceImpact.GameEngine.dll&quot; Namespace%3DSpaceImpact.GameEngine.BaseGameElements Type%3DGameObject Member%3D(Name%3D.ctor OverloadingParameters%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DInt32)%2C(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DInt32)%2C(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DInt32)])"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="2ba14981-f146-4bd7-814e-6a12e377d896"
+                name="method"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="3108457d-4995-48b7-bccb-532a69ce33a5">
+                    <propertyInstance
+                      Id="645d427f-3e09-40d4-8d1e-ad4c9a468d2e"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="0c8bc9eb-7d66-4005-8980-299dd326af44">
+                    <propertyInstance
+                      Id="815fb835-6671-412b-9d7a-fe8a50c93aca"
+                      name="IsPartial"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="798d9b7c-5737-46af-b61f-6b9eed0359d2">
+                    <propertyInstance
+                      Id="7417b6bb-563d-4f26-8a5e-ebf308cfd0ef"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="5568fc0d-26d6-418a-b5a6-4079936ef5f9">
+                    <propertyInstance
+                      Id="6b96550f-2ab8-465f-b4d8-d365975b4e67"
+                      name="Inheritance"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="5424c42d-d0b8-40ce-8b30-f007fabaefb9">
+                    <propertyInstance
+                      Id="d1a33fc4-79e1-4689-b005-2a69a9d54e45"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="793f26e4-a6b1-4f67-9358-82abadede64f">
+                    <propertyInstance
+                      Id="c21dc567-2773-4525-b8cc-0afec0fc3780"
+                      name="params"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <ownedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="1692fb4a-d080-4a69-a96c-842b5a05c062"
+                  name="x"
+                  direction="In">
+                  <referencesInternal>
+                    <reference
+                      Id="710417c4-94c4-4beb-8eca-f6e2107a4b40"
+                      handle="viewcode://./CodeSchema_Parameter?Assembly%3D&quot;file:%2F%2F%2FD:%2FIT Lab%2FBarabash%2FSpaceImpact%2FSpaceImpact%2FSpaceImpact.GameEngine%2Fbin%2FDebug%2FSpaceImpact.GameEngine.dll&quot; Namespace%3DSpaceImpact.GameEngine.BaseGameElements Type%3DGameObject Member%3D(Name%3D.ctor OverloadingParameters%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DInt32)%2C(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DInt32)%2C(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DInt32)]) ParameterIdentifier%3Dx"
+                      tag="ViewCode" />
+                  </referencesInternal>
+                  <type_NamedElement>
+                    <primitiveTypeMoniker
+                      Id="220a3521-e091-4221-bae9-3ef9018e845c"
+                      LastKnownName="Integer"
+                      LastKnownLocation="SpaceImpact.GameEngine.Model.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="8a6d9141-5afb-4f84-afef-ace617267467"
+                  name="y"
+                  direction="In">
+                  <referencesInternal>
+                    <reference
+                      Id="04b89bf4-c669-42bb-996c-2826afe59e40"
+                      handle="viewcode://./CodeSchema_Parameter?Assembly%3D&quot;file:%2F%2F%2FD:%2FIT Lab%2FBarabash%2FSpaceImpact%2FSpaceImpact%2FSpaceImpact.GameEngine%2Fbin%2FDebug%2FSpaceImpact.GameEngine.dll&quot; Namespace%3DSpaceImpact.GameEngine.BaseGameElements Type%3DGameObject Member%3D(Name%3D.ctor OverloadingParameters%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DInt32)%2C(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DInt32)%2C(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DInt32)]) ParameterIdentifier%3Dy"
+                      tag="ViewCode" />
+                  </referencesInternal>
+                  <type_NamedElement>
+                    <primitiveTypeMoniker
+                      Id="220a3521-e091-4221-bae9-3ef9018e845c"
+                      LastKnownName="Integer"
+                      LastKnownLocation="SpaceImpact.GameEngine.Model.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="2e48f44e-a490-4f73-9cbc-6c9faa401cd9"
+                  name="life"
+                  direction="In">
+                  <referencesInternal>
+                    <reference
+                      Id="f3d35572-7d3a-4265-8700-406b4ebd97a8"
+                      handle="viewcode://./CodeSchema_Parameter?Assembly%3D&quot;file:%2F%2F%2FD:%2FIT Lab%2FBarabash%2FSpaceImpact%2FSpaceImpact%2FSpaceImpact.GameEngine%2Fbin%2FDebug%2FSpaceImpact.GameEngine.dll&quot; Namespace%3DSpaceImpact.GameEngine.BaseGameElements Type%3DGameObject Member%3D(Name%3D.ctor OverloadingParameters%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DInt32)%2C(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DInt32)%2C(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DInt32)]) ParameterIdentifier%3Dlife"
+                      tag="ViewCode" />
+                  </referencesInternal>
+                  <type_NamedElement>
+                    <primitiveTypeMoniker
+                      Id="220a3521-e091-4221-bae9-3ef9018e845c"
+                      LastKnownName="Integer"
+                      LastKnownLocation="SpaceImpact.GameEngine.Model.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+            </ownedParameters>
+          </operation>
+          <operation
+            Id="10ccb0eb-c438-49c0-96ee-67968987385c"
+            name="IsAlive"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false">
+            <referencesInternal>
+              <reference
+                Id="c1bbfc1f-d792-44a6-ae8e-cd0884ed8b7b"
+                handle="viewcode://./CodeSchema_Method?Assembly%3D&quot;file:%2F%2F%2FD:%2FIT Lab%2FBarabash%2FSpaceImpact%2FSpaceImpact%2FSpaceImpact.GameEngine%2Fbin%2FDebug%2FSpaceImpact.GameEngine.dll&quot; Namespace%3DSpaceImpact.GameEngine.BaseGameElements Type%3DGameObject Member%3DIsAlive"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="d28c6284-48a5-4157-9e27-52266d176cf7"
+                name="method"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="dd0726f6-1d09-4f6c-8b24-6bed5c05edca">
+                    <propertyInstance
+                      Id="2e05f2d2-13f0-42a7-bcba-7b7b27ec77e3"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="a06e668e-7b00-4d0f-a20c-718da1ba6fed">
+                    <propertyInstance
+                      Id="8d516d8f-f811-491d-a9a6-9a595374994c"
+                      name="IsPartial"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="965b95e8-423e-4503-8dd6-27d3edb53f99">
+                    <propertyInstance
+                      Id="88383e4e-93a6-4df2-aaee-6d8ce6703a47"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="f710bf46-85b6-4632-945d-0b8200f66a6a">
+                    <propertyInstance
+                      Id="4b245449-8192-4d86-8f96-f0fd2cf192e4"
+                      name="Inheritance"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="a1e3d89b-e1ca-443f-a7b9-c1cc7b2fdad8">
+                    <propertyInstance
+                      Id="35ebcdc1-8e82-46c2-be07-02baa483332a"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="6587cb53-01d5-484b-9bc7-307b8d020f00">
+                    <propertyInstance
+                      Id="a6ef99c8-050a-44da-b458-e465157ae261"
+                      name="params"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <ownedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="1555fbe2-0bd0-4792-842c-0ce682034145"
+                  direction="Return">
+                  <type_NamedElement>
+                    <primitiveTypeMoniker
+                      Id="220a3521-e091-4221-bae9-3ef9018e845c"
+                      LastKnownName="Integer"
+                      LastKnownLocation="SpaceImpact.GameEngine.Model.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+            </ownedParameters>
+          </operation>
+        </ownedOperationsInternal>
+      </class>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <Interface
+        Id="480285de-0af3-4fe4-abac-4855dc7efe08"
+        name="IGameObject"
+        isAbstract="false"
+        isLeaf="false">
+        <referencesInternal>
+          <reference
+            Id="39e62bbe-5fc2-4824-adde-97dd55d67684"
+            handle="viewcode://./CodeSchema_Interface?Assembly%3D&quot;file:%2F%2F%2FD:%2FIT Lab%2FBarabash%2FSpaceImpact%2FSpaceImpact%2FSpaceImpact.GameEngine%2Fbin%2FDebug%2FSpaceImpact.GameEngine.dll&quot; Namespace%3DSpaceImpact.GameEngine.BaseGameElements Type%3DIGameObject"
+            tag="ViewCode" />
+        </referencesInternal>
+        <appliedStereotypesInternal>
+          <stereotypeInstance
+            Id="99f34ad3-09e6-4257-adb9-4806d182b2d6"
+            name="interface"
+            profile="CSharpProfile">
+            <propertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="36dbe4ff-7e8b-40fd-a8b6-ab177c3208cb">
+                <propertyInstance
+                  Id="d7157a71-c80f-47fc-a949-a0eb6f4f4fab"
+                  name="ClrAttributes" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="dded4954-05dd-41b6-a7e5-b4a2af16a319">
+                <propertyInstance
+                  Id="234f4e06-0d73-4ff1-b0f3-6b23c88a8662"
+                  name="IsPartial"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="a74d19b8-f7cf-4014-8fe2-38024d3316ab">
+                <propertyInstance
+                  Id="6a9f6c28-0538-411e-a250-d9846cac0296"
+                  name="IsUnsafe"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="db088dc8-3a5e-4631-86e8-621bb601458a">
+                <propertyInstance
+                  Id="330fb66c-6b14-47e2-804b-d3c2ba01aa96"
+                  name="PackageVisibility"
+                  value="internal" />
+              </stereotypeInstanceHasPropertyInstances>
+            </propertyInstances>
+          </stereotypeInstance>
+        </appliedStereotypesInternal>
+        <generalsInternal>
+          <generalization
+            Id="55d2b248-a892-403b-b4be-bcaaf098df18"
+            isSubstitutable="false">
+            <interfaceMoniker
+              Id="41a39701-1ac9-4e40-a69d-8652e7489482"
+              LastKnownName="IGameElement"
+              LastKnownLocation="Package2_2238.uml" />
+          </generalization>
+        </generalsInternal>
+        <targetEnds>
+          <association
+            Id="6b4f15fc-5a4a-4509-9c1f-40ed1e6935d0"
+            isDerived="false"
+            sourceEndRoleName="IGameObject"
+            targetEndRoleName="Space"
+            isLeaf="false"
+            isAbstract="false">
+            <classMoniker
+              Id="0d1a4ba7-7bc7-418b-b089-47a7850c03c6"
+              LastKnownName="Space"
+              LastKnownLocation="Package1_2238.uml" />
+            <description>Property Space references type Space.</description>
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="9df93c32-a16a-4c1e-971c-199385c21535"
+                  name="IGameObject"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false"
+                  isNavigableOwned="false">
+                  <lowerValueInternal>
+                    <literalString
+                      Id="1c5dbe94-db69-45f4-b6e8-7738d179d880"
+                      name="Lower"
+                      value="*" />
+                  </lowerValueInternal>
+                  <upperValueInternal>
+                    <literalString
+                      Id="721f1f25-d4b6-4ce6-bb63-4b9e70c5a4de"
+                      name="Upper"
+                      value="*" />
+                  </upperValueInternal>
+                </memberEnd>
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="59bb1dba-c96e-4f02-8d5d-187c649a2d23"
+                  name="Space"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false">
+                  <lowerValueInternal>
+                    <literalString
+                      Id="2fb85e2e-b036-4401-b3f1-69307b12f6b1"
+                      name="Lower"
+                      value="1" />
+                  </lowerValueInternal>
+                  <upperValueInternal>
+                    <literalString
+                      Id="02fdb0c9-d923-4e87-b2f8-41f0864363f4"
+                      name="Upper"
+                      value="1" />
+                  </upperValueInternal>
+                </memberEnd>
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+          </association>
+          <association
+            Id="285c653f-5e6f-4300-bd39-5339dc1169e2"
+            isDerived="false"
+            sourceEndRoleName="IGameObject"
+            targetEndRoleName="BattleSpace"
+            isLeaf="false"
+            isAbstract="false">
+            <classMoniker
+              Id="6c2c1ec8-37fe-4806-8328-e0311871d8c6"
+              LastKnownName="BattleSpace"
+              LastKnownLocation="Package1_2238.uml" />
+            <description>Property BattleSpace references type BattleSpace.</description>
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="369e776b-6bf6-4b4a-bdca-c1a7fb1baeda"
+                  name="IGameObject"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false"
+                  isNavigableOwned="false">
+                  <lowerValueInternal>
+                    <literalString
+                      Id="6a077ba1-e58f-4b78-9e61-65e2b73af7e9"
+                      name="Lower"
+                      value="*" />
+                  </lowerValueInternal>
+                  <upperValueInternal>
+                    <literalString
+                      Id="49ed8507-6750-4ce1-a4fd-2f780da81925"
+                      name="Upper"
+                      value="*" />
+                  </upperValueInternal>
+                </memberEnd>
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="d6664e39-9274-4107-8db1-aba8dba92a3f"
+                  name="BattleSpace"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false">
+                  <lowerValueInternal>
+                    <literalString
+                      Id="8b695c7a-0da6-47fe-8bc1-f8a10e872748"
+                      name="Lower"
+                      value="1" />
+                  </lowerValueInternal>
+                  <upperValueInternal>
+                    <literalString
+                      Id="edb4a13f-c769-49bb-ac1f-6336933c70e2"
+                      name="Upper"
+                      value="1" />
+                  </upperValueInternal>
+                </memberEnd>
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+          </association>
+        </targetEnds>
+        <ownedAttributes>
+          <property
+            Id="f50cc2f2-d66e-44ac-82f2-d177f8e9aaad"
+            name="Space"
+            isLeaf="false"
+            isStatic="false"
+            isReadOnly="false"
+            isDerived="false"
+            isDerivedUnion="false"
+            aggregation="None"
+            isComposite="false">
+            <referencesInternal>
+              <reference
+                Id="5642cb47-db1f-4962-81d9-ad410c19a6c9"
+                handle="viewcode://./CodeSchema_Property?Assembly%3D&quot;file:%2F%2F%2FD:%2FIT Lab%2FBarabash%2FSpaceImpact%2FSpaceImpact%2FSpaceImpact.GameEngine%2Fbin%2FDebug%2FSpaceImpact.GameEngine.dll&quot; Namespace%3DSpaceImpact.GameEngine.BaseGameElements Type%3DIGameObject Member%3DSpace"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="2ccf6ca9-110b-4dfc-a11f-7cdc5264adb3"
+                name="property"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="fbf2b3a3-8391-4357-8390-fedc90f002f6">
+                    <propertyInstance
+                      Id="ffa348e2-641f-4511-b2e5-98baaa4a8432"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="fa992756-8ce1-4e9f-90b4-a92b4912d6d5">
+                    <propertyInstance
+                      Id="5c356458-ab8f-4e7e-93fd-15ca5515d62c"
+                      name="Get"
+                      value="public" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="56dcd1e1-0d8c-4763-8392-1136fa1766a4">
+                    <propertyInstance
+                      Id="dd94c7e5-ec71-4cd3-8a2f-d9f036c8fc97"
+                      name="HasBody"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="4c8f30be-c395-4786-9431-ce8a141862c3">
+                    <propertyInstance
+                      Id="919d63c5-978a-4384-9ddc-c38f8f5b885f"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="08a452ad-29f8-4fea-ab51-7a224841e045">
+                    <propertyInstance
+                      Id="9a8a13f5-836e-4074-a67a-554774fda11f"
+                      name="Inheritance"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="6c65d719-3d11-4d4e-b2a8-7c5ba765490e">
+                    <propertyInstance
+                      Id="d0cff1da-5c7a-4c23-9cdf-546be6705d42"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="2b440295-7f39-4b30-8481-e7f88d8385ea">
+                    <propertyInstance
+                      Id="d9cda052-a268-4490-b65b-561a5f988842"
+                      name="Set"
+                      value="public" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <type_NamedElement>
+              <classMoniker
+                Id="0d1a4ba7-7bc7-418b-b089-47a7850c03c6"
+                LastKnownName="Space"
+                LastKnownLocation="Package1_2238.uml" />
+            </type_NamedElement>
+          </property>
+          <property
+            Id="40af9ac6-382b-48a2-bbd9-03074d464fc0"
+            name="X"
+            isLeaf="false"
+            isStatic="false"
+            isReadOnly="true"
+            isDerived="false"
+            isDerivedUnion="false"
+            aggregation="None"
+            isComposite="false">
+            <referencesInternal>
+              <reference
+                Id="7d389987-3f8b-4fce-ab5e-924eb55a9175"
+                handle="viewcode://./CodeSchema_Property?Assembly%3D&quot;file:%2F%2F%2FD:%2FIT Lab%2FBarabash%2FSpaceImpact%2FSpaceImpact%2FSpaceImpact.GameEngine%2Fbin%2FDebug%2FSpaceImpact.GameEngine.dll&quot; Namespace%3DSpaceImpact.GameEngine.BaseGameElements Type%3DIGameObject Member%3DX"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="05f3cd92-92ab-4896-a832-249d93256bd9"
+                name="property"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="fc1a0003-a06d-4bd2-a6ad-89d59c1cf874">
+                    <propertyInstance
+                      Id="1096a4fa-5152-456b-9bc8-c0f9959456f3"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="eef4940e-e107-4274-9780-96e40ef01a71">
+                    <propertyInstance
+                      Id="96390da6-263e-49e9-9c64-d4057d39c2c9"
+                      name="Get"
+                      value="public" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="a60f4605-4f11-4ac1-891a-08d71b729994">
+                    <propertyInstance
+                      Id="abbaf3ad-8e72-4823-b955-0e6ed233261b"
+                      name="HasBody"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="a0159707-5fed-4454-94a8-7ff64f96f7c3">
+                    <propertyInstance
+                      Id="c109ca23-9703-46ca-b3a1-de2140281be3"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="55433d8a-fa1f-45a0-886f-614dabf41dd1">
+                    <propertyInstance
+                      Id="355d1985-079a-4530-a9aa-5a9e71417217"
+                      name="Inheritance"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="64015866-64e9-4db6-bdef-74b09dbddc6c">
+                    <propertyInstance
+                      Id="ebd7c74c-c383-4bb3-85b0-d4e062ffa191"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="10758dbb-1a85-47f9-a543-b1ac3b498174">
+                    <propertyInstance
+                      Id="118ddd97-cf5f-4732-bf93-04a7172eb5f5"
+                      name="Set"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <type_NamedElement>
+              <primitiveTypeMoniker
+                Id="220a3521-e091-4221-bae9-3ef9018e845c"
+                LastKnownName="Integer"
+                LastKnownLocation="SpaceImpact.GameEngine.Model.uml" />
+            </type_NamedElement>
+          </property>
+          <property
+            Id="b0af8434-8235-46d7-99cc-98f8cd5f6953"
+            name="Y"
+            isLeaf="false"
+            isStatic="false"
+            isReadOnly="true"
+            isDerived="false"
+            isDerivedUnion="false"
+            aggregation="None"
+            isComposite="false">
+            <referencesInternal>
+              <reference
+                Id="64fefc8a-3ac3-4b86-b1c6-97dd4b3036ad"
+                handle="viewcode://./CodeSchema_Property?Assembly%3D&quot;file:%2F%2F%2FD:%2FIT Lab%2FBarabash%2FSpaceImpact%2FSpaceImpact%2FSpaceImpact.GameEngine%2Fbin%2FDebug%2FSpaceImpact.GameEngine.dll&quot; Namespace%3DSpaceImpact.GameEngine.BaseGameElements Type%3DIGameObject Member%3DY"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="f73f0068-4a34-45dd-bfcd-59de3b28414f"
+                name="property"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="81f583b3-c307-4d5b-a34f-53c798075fba">
+                    <propertyInstance
+                      Id="0a2d4396-2230-4640-a006-ae4482ab0808"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="e5995fd4-4cda-47f9-8ab6-acfae7d79d74">
+                    <propertyInstance
+                      Id="c5c4d59c-94f5-414a-908b-8b9ce71f3102"
+                      name="Get"
+                      value="public" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="de1e3ddb-19b4-4ecf-ad72-697a73a457fa">
+                    <propertyInstance
+                      Id="0075eb33-6b6a-45b7-9f57-5e66cb03df66"
+                      name="HasBody"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="378a2afd-cec2-4085-843c-649ea3742db1">
+                    <propertyInstance
+                      Id="b264341b-81a1-4037-a43f-82052d79117e"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="cb1f3533-9e75-46ca-97d3-b22766b95fac">
+                    <propertyInstance
+                      Id="714237a6-ebe9-4115-af6d-456d2bc777cd"
+                      name="Inheritance"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="7e2a8b03-50a1-4812-8220-befa8ffabd3c">
+                    <propertyInstance
+                      Id="c7310185-6fd5-4a4b-858c-2f0f33530e6e"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="8bec126b-8e26-4eb4-af33-5feea51f92a5">
+                    <propertyInstance
+                      Id="9b0b6614-10c1-439f-aa5d-f3ef2782469c"
+                      name="Set"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <type_NamedElement>
+              <primitiveTypeMoniker
+                Id="220a3521-e091-4221-bae9-3ef9018e845c"
+                LastKnownName="Integer"
+                LastKnownLocation="SpaceImpact.GameEngine.Model.uml" />
+            </type_NamedElement>
+          </property>
+          <property
+            Id="21486ff6-c19b-493e-800c-aa02c415b8fd"
+            name="BattleSpace"
+            isLeaf="false"
+            isStatic="false"
+            isReadOnly="false"
+            isDerived="false"
+            isDerivedUnion="false"
+            aggregation="None"
+            isComposite="false">
+            <referencesInternal>
+              <reference
+                Id="c36c3d47-af17-40e3-94cc-b9309b956376"
+                handle="viewcode://./CodeSchema_Property?Assembly%3D&quot;file:%2F%2F%2FD:%2FIT Lab%2FBarabash%2FSpaceImpact%2FSpaceImpact%2FSpaceImpact.GameEngine%2Fbin%2FDebug%2FSpaceImpact.GameEngine.dll&quot; Namespace%3DSpaceImpact.GameEngine.BaseGameElements Type%3DIGameObject Member%3DBattleSpace"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="3e33be11-9c01-4010-a335-4a421fe39971"
+                name="property"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="84f1d01b-75ed-4e82-b6d7-5cf66a3f1ff7">
+                    <propertyInstance
+                      Id="00f2ae81-24ed-4317-9b84-91fa55dd85ce"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="b89b6a71-e25d-4a60-811c-e19dffd80150">
+                    <propertyInstance
+                      Id="c5139080-abbd-4e97-a852-93af9df051c9"
+                      name="Get"
+                      value="public" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="c2a4a84e-bc54-4a5b-8751-447b6d475c27">
+                    <propertyInstance
+                      Id="bbeb2a10-d683-4e2a-8e98-d159cd22466f"
+                      name="HasBody"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="00069dcd-ff50-4983-8802-6c10a94b1d74">
+                    <propertyInstance
+                      Id="4124ae10-7f4f-45f5-90c2-190284a3949e"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="780c9bad-bb4a-4ded-aea1-d5cdc9e7184e">
+                    <propertyInstance
+                      Id="87f59956-4a74-44e1-967d-3f25025c98d1"
+                      name="Inheritance"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="f46fb7e0-2199-4647-9741-e3cec6c55a05">
+                    <propertyInstance
+                      Id="c692a044-bfcf-4343-8a86-959e5a8dba9d"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="4eace63b-476f-41ae-a00e-8d87d36184ea">
+                    <propertyInstance
+                      Id="996340db-9dd4-4160-a79f-19f87bf86d0b"
+                      name="Set"
+                      value="public" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <type_NamedElement>
+              <classMoniker
+                Id="6c2c1ec8-37fe-4806-8328-e0311871d8c6"
+                LastKnownName="BattleSpace"
+                LastKnownLocation="Package1_2238.uml" />
+            </type_NamedElement>
+          </property>
+          <property
+            Id="a7ade3ed-1cf5-4eb3-99a9-a1a79b8c6b26"
+            name="Life"
+            isLeaf="false"
+            isStatic="false"
+            isReadOnly="true"
+            isDerived="false"
+            isDerivedUnion="false"
+            aggregation="None"
+            isComposite="false">
+            <referencesInternal>
+              <reference
+                Id="42e153bc-dc46-477c-9e93-3fabd19190be"
+                handle="viewcode://./CodeSchema_Property?Assembly%3D&quot;file:%2F%2F%2FD:%2FIT Lab%2FBarabash%2FSpaceImpact%2FSpaceImpact%2FSpaceImpact.GameEngine%2Fbin%2FDebug%2FSpaceImpact.GameEngine.dll&quot; Namespace%3DSpaceImpact.GameEngine.BaseGameElements Type%3DIGameObject Member%3DLife"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="6658fd6b-cfe1-444e-9759-4ddf033dcffc"
+                name="property"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="b12e8879-7c81-408d-b39b-25a04f89da7d">
+                    <propertyInstance
+                      Id="c0578d4d-64e2-4bb6-ae80-cf95a9ea5fd0"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="5fc72f85-e25c-4603-9e32-f2d2ddcdd62d">
+                    <propertyInstance
+                      Id="ec9a5768-dde5-4e52-ab03-6a8b5b92fd3d"
+                      name="Get"
+                      value="public" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="bde8813a-0c52-4e1c-a6de-85dfbfb1eb85">
+                    <propertyInstance
+                      Id="623c69a0-dd9d-49e7-b46a-ee52fac1506b"
+                      name="HasBody"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="19cd5a85-6269-46cf-9912-98491da51a37">
+                    <propertyInstance
+                      Id="beee874e-8139-4113-93cc-abe41d97d91f"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="ce0fb808-67e0-4884-8b12-8e25645f57e2">
+                    <propertyInstance
+                      Id="c7431025-1a0a-45e8-9c94-26a788de0c58"
+                      name="Inheritance"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="9e36cfda-0fe6-4836-b967-9a445479bbab">
+                    <propertyInstance
+                      Id="fd9ad7ba-fccd-4c30-80ff-7320b3f6ee94"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="e1ede6cc-db09-42fc-a037-72e5bd56d915">
+                    <propertyInstance
+                      Id="817f221d-7b4d-4ace-8d1c-bf9f82faa189"
+                      name="Set"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <type_NamedElement>
+              <primitiveTypeMoniker
+                Id="220a3521-e091-4221-bae9-3ef9018e845c"
+                LastKnownName="Integer"
+                LastKnownLocation="SpaceImpact.GameEngine.Model.uml" />
+            </type_NamedElement>
+          </property>
+        </ownedAttributes>
+        <ownedOperations>
+          <operation
+            Id="3b68ce7e-b69b-4e6d-9fd7-d36bcfb135ad"
+            name="IsAlive"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="true"
+            concurrency="Sequential"
+            isQuery="false">
+            <referencesInternal>
+              <reference
+                Id="87b34d50-1e35-4181-9a76-271b08ab5e3b"
+                handle="viewcode://./CodeSchema_Method?Assembly%3D&quot;file:%2F%2F%2FD:%2FIT Lab%2FBarabash%2FSpaceImpact%2FSpaceImpact%2FSpaceImpact.GameEngine%2Fbin%2FDebug%2FSpaceImpact.GameEngine.dll&quot; Namespace%3DSpaceImpact.GameEngine.BaseGameElements Type%3DIGameObject Member%3DIsAlive"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="9c3b1239-4948-4801-b5d8-48d6d0c8d2f3"
+                name="method"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="e51c4900-9a24-414e-ad2d-2bbe513b4bef">
+                    <propertyInstance
+                      Id="8a45c07c-60ac-4de0-bdfc-4a4555161a43"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="9d622741-7031-45db-bf15-25be723707f2">
+                    <propertyInstance
+                      Id="4858eb63-03bb-4f09-beb1-3756c0e39861"
+                      name="IsPartial"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="621285d9-89e6-41ad-9ff5-24f56e178667">
+                    <propertyInstance
+                      Id="a526a3f7-eb2f-4d2d-8df2-973ee876d6a5"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="428b2ed9-b0d0-4fef-beaf-f74597e162bd">
+                    <propertyInstance
+                      Id="682ae48b-762b-417b-9f3d-fc0b85c93740"
+                      name="Inheritance"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="dbd20ae1-10d7-4588-bf8e-37168a689790">
+                    <propertyInstance
+                      Id="cd818dc9-fd73-4990-ad02-d6cddda1a80b"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="aca12b39-0a5e-4d38-a6f8-1d64f8d6f2b6">
+                    <propertyInstance
+                      Id="2b1fc7d6-338d-4aa3-b3fc-7fc0a217735b"
+                      name="params"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <ownedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="3aeba242-8b43-4458-aed6-3759062a2899"
+                  direction="Return">
+                  <type_NamedElement>
+                    <primitiveTypeMoniker
+                      Id="220a3521-e091-4221-bae9-3ef9018e845c"
+                      LastKnownName="Integer"
+                      LastKnownLocation="SpaceImpact.GameEngine.Model.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+            </ownedParameters>
+          </operation>
+        </ownedOperations>
+      </Interface>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <Interface
+        Id="41a39701-1ac9-4e40-a69d-8652e7489482"
+        name="IGameElement"
+        isAbstract="false"
+        isLeaf="false">
+        <referencesInternal>
+          <reference
+            Id="a3028e17-c710-4cfe-8d34-cb3928ffd51d"
+            handle="viewcode://./CodeSchema_Interface?Assembly%3D&quot;file:%2F%2F%2FD:%2FIT Lab%2FBarabash%2FSpaceImpact%2FSpaceImpact%2FSpaceImpact.GameEngine%2Fbin%2FDebug%2FSpaceImpact.GameEngine.dll&quot; Namespace%3DSpaceImpact.GameEngine.BaseGameElements Type%3DIGameElement"
+            tag="ViewCode" />
+        </referencesInternal>
+        <appliedStereotypesInternal>
+          <stereotypeInstance
+            Id="caadb37c-426e-43ea-9eab-fb20da16e363"
+            name="interface"
+            profile="CSharpProfile">
+            <propertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="7048a21d-1c1f-4c0d-a4b9-67ae57e774d8">
+                <propertyInstance
+                  Id="6a35e8ac-765c-416c-8af9-0a96bf9a260c"
+                  name="ClrAttributes" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="47f18fd7-f12a-4b87-a519-af4300063f84">
+                <propertyInstance
+                  Id="6fd9eec3-0d3e-4c8a-b0ec-51561d617e84"
+                  name="IsPartial"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="556a1dde-0d35-4dbc-bd81-88227988f4f1">
+                <propertyInstance
+                  Id="ca6ffd92-fd57-4b6c-b9ed-39cb1d45f668"
+                  name="IsUnsafe"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="f170604a-ad5c-447e-80fb-3e70b4df5eeb">
+                <propertyInstance
+                  Id="650820f3-08f3-45fe-96da-4ee80f1b1c7c"
+                  name="PackageVisibility"
+                  value="internal" />
+              </stereotypeInstanceHasPropertyInstances>
+            </propertyInstances>
+          </stereotypeInstance>
+        </appliedStereotypesInternal>
+        <targetEnds>
+          <association
+            Id="e1c10805-fb1d-4f1e-b6da-eed041ae2cf9"
+            isDerived="false"
+            sourceEndRoleName="IGameElement"
+            targetEndRoleName="Space"
+            isLeaf="false"
+            isAbstract="false">
+            <classMoniker
+              Id="0d1a4ba7-7bc7-418b-b089-47a7850c03c6"
+              LastKnownName="Space"
+              LastKnownLocation="Package1_2238.uml" />
+            <description>Property Space references type Space.</description>
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="11c0980a-b703-4f80-a51a-f39b0d55840e"
+                  name="IGameElement"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false"
+                  isNavigableOwned="false">
+                  <lowerValueInternal>
+                    <literalString
+                      Id="40b3e4fc-24bd-4696-9542-89d7604dcef1"
+                      name="Lower"
+                      value="*" />
+                  </lowerValueInternal>
+                  <upperValueInternal>
+                    <literalString
+                      Id="4ad20905-42b8-4982-8522-28f34917d118"
+                      name="Upper"
+                      value="*" />
+                  </upperValueInternal>
+                </memberEnd>
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="b42a1e45-b93c-4b9b-af57-e4608dff58c5"
+                  name="Space"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false">
+                  <lowerValueInternal>
+                    <literalString
+                      Id="b92d7d6e-b2f1-40ff-a8c0-3956a2583fbf"
+                      name="Lower"
+                      value="1" />
+                  </lowerValueInternal>
+                  <upperValueInternal>
+                    <literalString
+                      Id="89a8f98b-5932-48a1-8729-1209969c70eb"
+                      name="Upper"
+                      value="1" />
+                  </upperValueInternal>
+                </memberEnd>
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+          </association>
+        </targetEnds>
+        <ownedAttributes>
+          <property
+            Id="54778dec-1391-4de6-965f-a5d368900ceb"
+            name="Space"
+            isLeaf="false"
+            isStatic="false"
+            isReadOnly="false"
+            isDerived="false"
+            isDerivedUnion="false"
+            aggregation="None"
+            isComposite="false">
+            <referencesInternal>
+              <reference
+                Id="58292172-a6b6-4a5f-836b-8a53a50dd691"
+                handle="viewcode://./CodeSchema_Property?Assembly%3D&quot;file:%2F%2F%2FD:%2FIT Lab%2FBarabash%2FSpaceImpact%2FSpaceImpact%2FSpaceImpact.GameEngine%2Fbin%2FDebug%2FSpaceImpact.GameEngine.dll&quot; Namespace%3DSpaceImpact.GameEngine.BaseGameElements Type%3DIGameElement Member%3DSpace"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="e0dd276a-b481-45b4-b484-723ee67d9854"
+                name="property"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="71aaca8d-a7cc-4bff-b6af-ab995e00f6e3">
+                    <propertyInstance
+                      Id="3c5e9f29-be16-4d48-b445-7557689765e3"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="0a527854-b7d3-4f8a-934c-b0d95e0f0680">
+                    <propertyInstance
+                      Id="4e08258f-44ce-408e-8bc9-3bdddb7d2f41"
+                      name="Get"
+                      value="public" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="3f60fac9-e2a4-44a3-ae5e-2fb1b7762baf">
+                    <propertyInstance
+                      Id="c189e1c0-a169-49cb-92c1-b646c246ea81"
+                      name="HasBody"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="10490635-0900-4e9d-945e-dabeba66130e">
+                    <propertyInstance
+                      Id="0649ee0a-df4f-4e81-9831-db1030d23f57"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="c3e98a15-1921-4632-aeec-b5827c0b14ef">
+                    <propertyInstance
+                      Id="c1d03115-5d54-4c0c-ad8a-5083c1031cb8"
+                      name="Inheritance"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="56095ee5-7c5a-411f-a77f-35580812b05c">
+                    <propertyInstance
+                      Id="b2260690-d953-4f06-92ad-4bfa0f46d611"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="f6516deb-40f7-48e4-b0f9-b44eb7a22c35">
+                    <propertyInstance
+                      Id="52b5a444-f9ff-4017-9ff3-6691c88deb02"
+                      name="Set"
+                      value="public" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <type_NamedElement>
+              <classMoniker
+                Id="0d1a4ba7-7bc7-418b-b089-47a7850c03c6"
+                LastKnownName="Space"
+                LastKnownLocation="Package1_2238.uml" />
+            </type_NamedElement>
+          </property>
+          <property
+            Id="2ed30663-4c7c-439b-95af-734962cf0a8a"
+            name="X"
+            isLeaf="false"
+            isStatic="false"
+            isReadOnly="true"
+            isDerived="false"
+            isDerivedUnion="false"
+            aggregation="None"
+            isComposite="false">
+            <referencesInternal>
+              <reference
+                Id="d1597d25-0249-4ca7-becf-820b913a3540"
+                handle="viewcode://./CodeSchema_Property?Assembly%3D&quot;file:%2F%2F%2FD:%2FIT Lab%2FBarabash%2FSpaceImpact%2FSpaceImpact%2FSpaceImpact.GameEngine%2Fbin%2FDebug%2FSpaceImpact.GameEngine.dll&quot; Namespace%3DSpaceImpact.GameEngine.BaseGameElements Type%3DIGameElement Member%3DX"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="0ab9bb49-566c-41a4-bbb7-ceb47a06ef71"
+                name="property"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="d7b176b7-1e94-46f1-8a9d-a8d18664f44c">
+                    <propertyInstance
+                      Id="b227a2ed-aa3b-40b6-9b76-33bfbb1466d5"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="6f40c8d2-2bbf-48f0-9183-ec0b7dc832e8">
+                    <propertyInstance
+                      Id="85081a6d-f2d6-4690-8653-128d3e2deeb9"
+                      name="Get"
+                      value="public" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="f98752be-1749-406c-864e-a7a53537323a">
+                    <propertyInstance
+                      Id="27f7e946-b042-45a5-b278-700c01aa6f2c"
+                      name="HasBody"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="1a884f96-5d07-48ec-a6fd-92e021a48f42">
+                    <propertyInstance
+                      Id="01cfe30f-f2d7-4720-9c2d-b12c70bb14f6"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="e11330ec-58bb-40ff-bc11-52133d1b6bf9">
+                    <propertyInstance
+                      Id="0221d2de-e022-4152-848a-3ca587a5cf5c"
+                      name="Inheritance"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="62daaf74-4a84-463f-968d-2b45e47ef1a8">
+                    <propertyInstance
+                      Id="08b9e6de-2952-4b6f-b51a-0730fddea21d"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="8e1b31e0-1243-44f0-bd14-5974d52e5469">
+                    <propertyInstance
+                      Id="01673bb3-8c18-42c7-af99-0546db8b5c87"
+                      name="Set"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <type_NamedElement>
+              <primitiveTypeMoniker
+                Id="220a3521-e091-4221-bae9-3ef9018e845c"
+                LastKnownName="Integer"
+                LastKnownLocation="SpaceImpact.GameEngine.Model.uml" />
+            </type_NamedElement>
+          </property>
+          <property
+            Id="2d8f3bf6-1b84-4b3f-95cb-d7bad4e1b615"
+            name="Y"
+            isLeaf="false"
+            isStatic="false"
+            isReadOnly="true"
+            isDerived="false"
+            isDerivedUnion="false"
+            aggregation="None"
+            isComposite="false">
+            <referencesInternal>
+              <reference
+                Id="9df37c5c-d31d-496a-82dd-29c4152d7e0e"
+                handle="viewcode://./CodeSchema_Property?Assembly%3D&quot;file:%2F%2F%2FD:%2FIT Lab%2FBarabash%2FSpaceImpact%2FSpaceImpact%2FSpaceImpact.GameEngine%2Fbin%2FDebug%2FSpaceImpact.GameEngine.dll&quot; Namespace%3DSpaceImpact.GameEngine.BaseGameElements Type%3DIGameElement Member%3DY"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="28afa38f-4083-44db-bcfd-1690e6310031"
+                name="property"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="a11e43b7-9ced-42f1-8c53-1d288017ab31">
+                    <propertyInstance
+                      Id="af2f47ae-c4e0-4c4b-9bc3-c59c3c189f60"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="fb227b26-8efb-4ee3-8c3a-d5e57070aae6">
+                    <propertyInstance
+                      Id="98deff3a-26cf-441a-9b6a-54def7c69038"
+                      name="Get"
+                      value="public" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="67e70c5f-4784-47cc-ac41-ef61eb387c87">
+                    <propertyInstance
+                      Id="12e98231-11f7-4d6e-ae9f-dcdb631d741b"
+                      name="HasBody"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="fc7b99e2-72a6-45be-8c83-488fd146bb90">
+                    <propertyInstance
+                      Id="d706c629-c257-41bb-8150-7fd230af4b6e"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="eff0b9ef-5b28-456d-ac3f-d27e13b5c557">
+                    <propertyInstance
+                      Id="4a78f7b7-5f87-437a-bbc3-e5713799896d"
+                      name="Inheritance"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="87529335-03f2-4688-a93a-f3896bd77444">
+                    <propertyInstance
+                      Id="216ffc14-bb58-470b-acf2-714df54ec08d"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="7f9728f1-8277-43e6-9466-83c42f08d5de">
+                    <propertyInstance
+                      Id="1e546f87-f929-4ee6-a36d-916afeabab78"
+                      name="Set"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <type_NamedElement>
+              <primitiveTypeMoniker
+                Id="220a3521-e091-4221-bae9-3ef9018e845c"
+                LastKnownName="Integer"
+                LastKnownLocation="SpaceImpact.GameEngine.Model.uml" />
+            </type_NamedElement>
+          </property>
+        </ownedAttributes>
+      </Interface>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <class
+        Id="07886543-1a4c-49a8-b627-3308f6a65c7a"
+        name="GameElement"
+        isAbstract="false"
+        isLeaf="false"
+        isActiveClass="false">
+        <referencesInternal>
+          <reference
+            Id="730cfb8a-3218-40e9-a51d-773a180a3e1a"
+            handle="viewcode://./CodeSchema_Class?Assembly%3D&quot;file:%2F%2F%2FD:%2FIT Lab%2FBarabash%2FSpaceImpact%2FSpaceImpact%2FSpaceImpact.GameEngine%2Fbin%2FDebug%2FSpaceImpact.GameEngine.dll&quot; Namespace%3DSpaceImpact.GameEngine.BaseGameElements Type%3DGameElement"
+            tag="ViewCode" />
+        </referencesInternal>
+        <appliedStereotypesInternal>
+          <stereotypeInstance
+            Id="ffdb870d-42b7-4b38-910b-ef11642d6acd"
+            name="class"
+            profile="CSharpProfile">
+            <propertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="a40b7f9e-b824-4be0-b967-918f369a9ae4">
+                <propertyInstance
+                  Id="19426570-68ae-4f4a-a337-c29c14905fa5"
+                  name="ClrAttributes" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="b16c78e3-313e-420d-81e7-f40c92dd8ddc">
+                <propertyInstance
+                  Id="f2b4835b-ba01-4e83-89c9-7b24c4deb523"
+                  name="IsPartial"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="20d700c1-2282-4297-bfe4-3118f7eec79a">
+                <propertyInstance
+                  Id="9037e8e5-8ed5-497f-9878-8a2544133163"
+                  name="IsStatic"
+                  value="False" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="b5fc5f9c-c687-422a-bae1-c651c0e552a7">
+                <propertyInstance
+                  Id="cd83420a-afa0-41ef-910a-f2d740d78c75"
+                  name="IsUnsafe"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="3a8a61a1-d529-434a-ba87-6d82e064ee7f">
+                <propertyInstance
+                  Id="701e1e93-0c1b-47d1-be56-b5324297564c"
+                  name="PackageVisibility"
+                  value="internal" />
+              </stereotypeInstanceHasPropertyInstances>
+            </propertyInstances>
+          </stereotypeInstance>
+        </appliedStereotypesInternal>
+        <suppliersInternal>
+          <interfaceRealization
+            Id="58c2901d-b1d8-4012-ae86-39972b308803">
+            <interfaceMoniker
+              Id="41a39701-1ac9-4e40-a69d-8652e7489482"
+              LastKnownName="IGameElement"
+              LastKnownLocation="Package2_2238.uml" />
+          </interfaceRealization>
+        </suppliersInternal>
+        <targetEnds>
+          <association
+            Id="dc2d6af9-0c38-4630-bf8d-6b0cdaa2dc44"
+            isDerived="false"
+            sourceEndRoleName="GameElement"
+            targetEndRoleName="Space"
+            isLeaf="false"
+            isAbstract="false">
+            <classMoniker
+              Id="0d1a4ba7-7bc7-418b-b089-47a7850c03c6"
+              LastKnownName="Space"
+              LastKnownLocation="Package1_2238.uml" />
+            <description>Property Space references type Space.</description>
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="6a497d1f-5330-42fb-a702-59cedfe4fe2b"
+                  name="GameElement"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false"
+                  isNavigableOwned="false">
+                  <lowerValueInternal>
+                    <literalString
+                      Id="b3be1519-87b6-4676-8fde-65c5fbdcad36"
+                      name="Lower"
+                      value="*" />
+                  </lowerValueInternal>
+                  <upperValueInternal>
+                    <literalString
+                      Id="922c420d-2b24-4469-a5cc-1dfacbca9869"
+                      name="Upper"
+                      value="*" />
+                  </upperValueInternal>
+                </memberEnd>
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="4aec8d9d-d585-4c78-8165-39d9b4ce42af"
+                  name="Space"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false">
+                  <lowerValueInternal>
+                    <literalString
+                      Id="a11979c4-4495-49dc-a7a5-a0c653ded7d8"
+                      name="Lower"
+                      value="1" />
+                  </lowerValueInternal>
+                  <upperValueInternal>
+                    <literalString
+                      Id="fe3bc190-9332-4c47-859e-cd6dcaa3e8e4"
+                      name="Upper"
+                      value="1" />
+                  </upperValueInternal>
+                </memberEnd>
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+          </association>
+        </targetEnds>
+        <ownedAttributesInternal>
+          <property
+            Id="e1d8ba20-0880-46e2-a3cf-ff7c5eef99b5"
+            name="Space"
+            isLeaf="false"
+            isStatic="false"
+            isReadOnly="false"
+            isDerived="false"
+            isDerivedUnion="false"
+            aggregation="None"
+            isComposite="false">
+            <referencesInternal>
+              <reference
+                Id="136c8985-9d44-4520-8052-fe5211b6b828"
+                handle="viewcode://./CodeSchema_Property?Assembly%3D&quot;file:%2F%2F%2FD:%2FIT Lab%2FBarabash%2FSpaceImpact%2FSpaceImpact%2FSpaceImpact.GameEngine%2Fbin%2FDebug%2FSpaceImpact.GameEngine.dll&quot; Namespace%3DSpaceImpact.GameEngine.BaseGameElements Type%3DGameElement Member%3DSpace"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="74b242bc-2892-4017-b6b8-d9afcf58e089"
+                name="property"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="b30c98e6-98b2-40ca-9b2a-08c208c71534">
+                    <propertyInstance
+                      Id="65019eac-4750-447c-9a3d-c43cf2f7a263"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="a01eb1c3-320d-4348-a846-522e1fb28d58">
+                    <propertyInstance
+                      Id="bfc4157c-d898-423f-bfb1-5f20dc21f7d5"
+                      name="Get"
+                      value="public" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="a7169c71-2590-41bb-a8a7-f886ba4dcdb8">
+                    <propertyInstance
+                      Id="0f11413f-1feb-480d-ab44-8aa41f2da28a"
+                      name="HasBody"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="ebd104a4-d289-4691-9712-488bd0290278">
+                    <propertyInstance
+                      Id="de979b12-7834-49c7-a4f2-3fddd51f7cab"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="30398dd1-0da7-4b21-b138-f1cb04776892">
+                    <propertyInstance
+                      Id="b68ed3e6-8451-4b7b-b78f-92aa694ca74c"
+                      name="Inheritance"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="c0a0eb78-5263-4cb2-b077-f1b599f2f703">
+                    <propertyInstance
+                      Id="ce63e9d1-d110-4a0f-ab16-40efdc1622a6"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="cebb118e-5423-45b9-bb31-f07bdefec06f">
+                    <propertyInstance
+                      Id="f9adf7ce-c5ac-4596-b879-00604ea72afb"
+                      name="Set"
+                      value="public" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <type_NamedElement>
+              <classMoniker
+                Id="0d1a4ba7-7bc7-418b-b089-47a7850c03c6"
+                LastKnownName="Space"
+                LastKnownLocation="Package1_2238.uml" />
+            </type_NamedElement>
+          </property>
+          <property
+            Id="a2dcee2b-d241-4e80-8b3a-a0e6cb2a6bca"
+            name="X"
+            isLeaf="false"
+            isStatic="false"
+            isReadOnly="false"
+            isDerived="false"
+            isDerivedUnion="false"
+            aggregation="None"
+            isComposite="false">
+            <referencesInternal>
+              <reference
+                Id="eb1c4480-8e11-4ee1-9f98-67067fd73238"
+                handle="viewcode://./CodeSchema_Property?Assembly%3D&quot;file:%2F%2F%2FD:%2FIT Lab%2FBarabash%2FSpaceImpact%2FSpaceImpact%2FSpaceImpact.GameEngine%2Fbin%2FDebug%2FSpaceImpact.GameEngine.dll&quot; Namespace%3DSpaceImpact.GameEngine.BaseGameElements Type%3DGameElement Member%3DX"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="b68fe2a0-945b-4a58-a32b-12707c7c56bc"
+                name="property"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="c43857bc-5efb-464b-8238-2e660c18b82d">
+                    <propertyInstance
+                      Id="8710ee32-5f30-4849-9184-5495bbf35274"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="ffd22299-9d85-4238-bb01-aacc665de874">
+                    <propertyInstance
+                      Id="cff93347-e0fe-42f6-bccc-9e1f4a5ed8e9"
+                      name="Get"
+                      value="public" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="e2a7f999-fd52-455a-bc23-08a9769e5489">
+                    <propertyInstance
+                      Id="6b9014d0-8543-471d-b4e5-494d9ff3cd16"
+                      name="HasBody"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="6ffcb8cf-0746-438d-a65a-a4ca3cc96931">
+                    <propertyInstance
+                      Id="3037a61a-c5d1-4e8a-9241-002aec30d74d"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="d9ba158d-5ab2-4515-aa60-ae83b38ee352">
+                    <propertyInstance
+                      Id="3845a9a9-ebfa-4111-95fb-573311d5e0c2"
+                      name="Inheritance"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="ba353886-a341-49b9-9134-be349a2bca53">
+                    <propertyInstance
+                      Id="69669d45-cf67-4cd1-a260-f6aa8db2ff32"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="a91d0df4-0c0d-4393-bb58-dcd8fae99589">
+                    <propertyInstance
+                      Id="e853e23e-8e08-4c6d-83ef-db7867c9c6ed"
+                      name="Set"
+                      value="public" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <type_NamedElement>
+              <primitiveTypeMoniker
+                Id="220a3521-e091-4221-bae9-3ef9018e845c"
+                LastKnownName="Integer"
+                LastKnownLocation="SpaceImpact.GameEngine.Model.uml" />
+            </type_NamedElement>
+          </property>
+          <property
+            Id="223a4d63-7e07-4d26-8a6b-655cbe518012"
+            name="Y"
+            isLeaf="false"
+            isStatic="false"
+            isReadOnly="false"
+            isDerived="false"
+            isDerivedUnion="false"
+            aggregation="None"
+            isComposite="false">
+            <referencesInternal>
+              <reference
+                Id="92f02cd7-2e30-4f50-b0e6-29d7b52589c3"
+                handle="viewcode://./CodeSchema_Property?Assembly%3D&quot;file:%2F%2F%2FD:%2FIT Lab%2FBarabash%2FSpaceImpact%2FSpaceImpact%2FSpaceImpact.GameEngine%2Fbin%2FDebug%2FSpaceImpact.GameEngine.dll&quot; Namespace%3DSpaceImpact.GameEngine.BaseGameElements Type%3DGameElement Member%3DY"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="2ebafa56-e915-4365-999c-5c83ea6da6da"
+                name="property"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="f31cac4f-1060-4183-a31d-d87a8efb036d">
+                    <propertyInstance
+                      Id="e276f081-af37-4f79-a74a-bc6f25074221"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="f1d7fda6-8909-48ef-ab00-c63963866aff">
+                    <propertyInstance
+                      Id="2740721d-3b93-4671-a065-d96b5bc72dcc"
+                      name="Get"
+                      value="public" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="5b9e2d2d-fd8b-48d5-b18c-1a474dc6c1b2">
+                    <propertyInstance
+                      Id="b239f47b-b83d-4299-b8da-da92679657c3"
+                      name="HasBody"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="3adcd53e-a9a0-4cdd-98bc-c2d2920b533d">
+                    <propertyInstance
+                      Id="c5b19cb1-987d-4d8d-a1bd-e2a427ac2e5a"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="18131277-6efc-48ca-b942-6ff9df93044b">
+                    <propertyInstance
+                      Id="1b3d005d-7406-488b-bdba-4cfc5b1384da"
+                      name="Inheritance"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="4159b82f-3120-4796-b34b-b88122f3e662">
+                    <propertyInstance
+                      Id="49c36d96-017a-4df4-9d69-544a0e419450"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="ae9d0923-2d99-4d08-9810-6e5e4228e8bd">
+                    <propertyInstance
+                      Id="961be58c-6e31-446f-86bd-2134cc28bd9a"
+                      name="Set"
+                      value="public" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <type_NamedElement>
+              <primitiveTypeMoniker
+                Id="220a3521-e091-4221-bae9-3ef9018e845c"
+                LastKnownName="Integer"
+                LastKnownLocation="SpaceImpact.GameEngine.Model.uml" />
+            </type_NamedElement>
+          </property>
+          <property
+            Id="a53858dd-7602-432c-9dfd-ff0f259df64b"
+            name="_space"
+            visibility="Private"
+            isLeaf="false"
+            isStatic="false"
+            isReadOnly="false"
+            isDerived="false"
+            isDerivedUnion="false"
+            aggregation="None"
+            isComposite="false">
+            <referencesInternal>
+              <reference
+                Id="ec5a0bae-64c0-46c9-b3cc-0078b7463e89"
+                handle="viewcode://./CodeSchema_Field?Assembly%3D&quot;file:%2F%2F%2FD:%2FIT Lab%2FBarabash%2FSpaceImpact%2FSpaceImpact%2FSpaceImpact.GameEngine%2Fbin%2FDebug%2FSpaceImpact.GameEngine.dll&quot; Namespace%3DSpaceImpact.GameEngine.BaseGameElements Type%3DGameElement Member%3D_space"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="fdddd944-1fcd-40d1-a415-b926d2debdf1"
+                name="field"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="aaa5f2df-15cc-4e72-a51e-a5dad5a958f1">
+                    <propertyInstance
+                      Id="af45c9ed-a94f-405d-9a22-b803b4b4dafc"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="fee946a8-43e7-4dc0-95b9-52c62996a865">
+                    <propertyInstance
+                      Id="05afaaae-7474-487d-bc0a-a60c4845adc8"
+                      name="IsConst"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="1e33de72-3b3f-4366-bb4b-a373787f4c69">
+                    <propertyInstance
+                      Id="423e5051-57ef-4a82-98c4-5a3f7ebe610d"
+                      name="IsNullable"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="d2570f30-33e0-4236-9e0b-bbed2eece777">
+                    <propertyInstance
+                      Id="8fa63572-61d6-40c1-9f79-b9c5ea287daf"
+                      name="IsVolatile"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="810c915b-f602-4088-a07d-ae37a3f8862c">
+                    <propertyInstance
+                      Id="1d3d02cd-d431-426c-84b8-02ebd1aea571"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <type_NamedElement>
+              <classMoniker
+                Id="0d1a4ba7-7bc7-418b-b089-47a7850c03c6"
+                LastKnownName="Space"
+                LastKnownLocation="Package1_2238.uml" />
+            </type_NamedElement>
+          </property>
+          <property
+            Id="5fd7382f-cd09-4c37-a6c7-0366ba6fb3b3"
+            name="_x"
+            visibility="Private"
+            isLeaf="false"
+            isStatic="false"
+            isReadOnly="false"
+            isDerived="false"
+            isDerivedUnion="false"
+            aggregation="None"
+            isComposite="false">
+            <referencesInternal>
+              <reference
+                Id="600c111d-b18f-425f-a288-9b701ff3221a"
+                handle="viewcode://./CodeSchema_Field?Assembly%3D&quot;file:%2F%2F%2FD:%2FIT Lab%2FBarabash%2FSpaceImpact%2FSpaceImpact%2FSpaceImpact.GameEngine%2Fbin%2FDebug%2FSpaceImpact.GameEngine.dll&quot; Namespace%3DSpaceImpact.GameEngine.BaseGameElements Type%3DGameElement Member%3D_x"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="fd0e58b0-288c-4c6d-b487-36f6f6376b1b"
+                name="field"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="46bc6132-5662-45a2-95ff-3f2715e4d0d5">
+                    <propertyInstance
+                      Id="02d7eed6-25fc-4276-a827-33b6b2e4902d"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="feeef69c-7713-4bce-8969-024b7d6750d3">
+                    <propertyInstance
+                      Id="e168ab40-b171-463b-8d48-cf05f011becc"
+                      name="IsConst"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="3830a3eb-bd3a-4e76-8b1d-b32d9c17f5d1">
+                    <propertyInstance
+                      Id="c19efc7f-b095-438a-ad81-efa2d7d605d2"
+                      name="IsNullable"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="1bdd6dcf-610f-45c0-93fd-df01a8851218">
+                    <propertyInstance
+                      Id="853c231a-858b-4dd0-b0d9-ed1d65091b42"
+                      name="IsVolatile"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="cdbe00b4-74e9-42fa-8e3d-b00a20f8145e">
+                    <propertyInstance
+                      Id="9efef1d8-a39e-4a1f-8128-62a5e99e670c"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <type_NamedElement>
+              <primitiveTypeMoniker
+                Id="220a3521-e091-4221-bae9-3ef9018e845c"
+                LastKnownName="Integer"
+                LastKnownLocation="SpaceImpact.GameEngine.Model.uml" />
+            </type_NamedElement>
+          </property>
+          <property
+            Id="2c9494d1-39da-404b-93cb-dba5c30f9c91"
+            name="_y"
+            visibility="Private"
+            isLeaf="false"
+            isStatic="false"
+            isReadOnly="false"
+            isDerived="false"
+            isDerivedUnion="false"
+            aggregation="None"
+            isComposite="false">
+            <referencesInternal>
+              <reference
+                Id="e1372337-3eb3-4433-83bb-1e9403d5a62c"
+                handle="viewcode://./CodeSchema_Field?Assembly%3D&quot;file:%2F%2F%2FD:%2FIT Lab%2FBarabash%2FSpaceImpact%2FSpaceImpact%2FSpaceImpact.GameEngine%2Fbin%2FDebug%2FSpaceImpact.GameEngine.dll&quot; Namespace%3DSpaceImpact.GameEngine.BaseGameElements Type%3DGameElement Member%3D_y"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="9a042142-9bf8-49eb-9864-ab2f8c8fa9e2"
+                name="field"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="3a5127df-b78e-4231-a0e7-100ef49d4e19">
+                    <propertyInstance
+                      Id="4c3d32b1-e13e-4b9a-b913-6163de61ab7a"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="7f88f09d-c135-40ba-9322-977cd95772ad">
+                    <propertyInstance
+                      Id="1ff76531-7dd7-4bf9-b073-bf01785ccb50"
+                      name="IsConst"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="7c37ca33-930b-47c2-a0e3-3764d8b3609e">
+                    <propertyInstance
+                      Id="520b2fae-c83a-4380-b715-d12911306045"
+                      name="IsNullable"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="d4e9093a-2f53-4fd0-9896-52540504641a">
+                    <propertyInstance
+                      Id="8bd4683c-30f6-4882-a356-279816e3483c"
+                      name="IsVolatile"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="c9dedb95-e8c9-4e8a-875d-387c75112ced">
+                    <propertyInstance
+                      Id="fe45d4c1-c84a-4b7c-85ab-40273853b108"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <type_NamedElement>
+              <primitiveTypeMoniker
+                Id="220a3521-e091-4221-bae9-3ef9018e845c"
+                LastKnownName="Integer"
+                LastKnownLocation="SpaceImpact.GameEngine.Model.uml" />
+            </type_NamedElement>
+          </property>
+        </ownedAttributesInternal>
+        <ownedOperationsInternal>
+          <operation
+            Id="55307618-950f-447b-9ca0-fd68637ef3a6"
+            name="GameElement"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false">
+            <referencesInternal>
+              <reference
+                Id="a5d8c1f2-ffba-4a55-a4d4-efd6d01e352c"
+                handle="viewcode://./CodeSchema_Method?Assembly%3D&quot;file:%2F%2F%2FD:%2FIT Lab%2FBarabash%2FSpaceImpact%2FSpaceImpact%2FSpaceImpact.GameEngine%2Fbin%2FDebug%2FSpaceImpact.GameEngine.dll&quot; Namespace%3DSpaceImpact.GameEngine.BaseGameElements Type%3DGameElement Member%3D(Name%3D.ctor OverloadingParameters%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DInt32)%2C(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DInt32)%2C(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DInt32)])"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="b621e430-0ccd-4a63-87d7-3c7988e7c4dc"
+                name="method"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="21710f07-622b-4e07-8b86-6092d0126a1a">
+                    <propertyInstance
+                      Id="32e7429e-e138-4555-b8cb-4bda10cb7bd1"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="150b70ea-a514-4174-9202-74a0966a1f57">
+                    <propertyInstance
+                      Id="b890af82-a98b-45e2-b9da-a524d9216775"
+                      name="IsPartial"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="a9368f8c-39b4-448a-a991-2185f81b0c87">
+                    <propertyInstance
+                      Id="b3591136-3d6e-4b1b-a3fd-7e958f174dfc"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="fb056e81-9727-4c52-9035-1241e26593b9">
+                    <propertyInstance
+                      Id="788bd51e-8ac4-4d54-8028-d75b486de44b"
+                      name="Inheritance"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="5aaf29d3-8956-463f-a17d-e0d2600abf27">
+                    <propertyInstance
+                      Id="9a505d11-1d8e-49be-8e26-127e5ce97e00"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="42294be1-620b-4f67-9b24-6868fe19fa26">
+                    <propertyInstance
+                      Id="056877c1-e202-46a2-8323-da8d7dca3bab"
+                      name="params"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <ownedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="7ae014cb-2728-4444-8ec6-343ab5f03e1a"
+                  name="x"
+                  direction="In">
+                  <referencesInternal>
+                    <reference
+                      Id="3b8ead43-79ce-4d4d-ba5e-3c020ff4e0f0"
+                      handle="viewcode://./CodeSchema_Parameter?Assembly%3D&quot;file:%2F%2F%2FD:%2FIT Lab%2FBarabash%2FSpaceImpact%2FSpaceImpact%2FSpaceImpact.GameEngine%2Fbin%2FDebug%2FSpaceImpact.GameEngine.dll&quot; Namespace%3DSpaceImpact.GameEngine.BaseGameElements Type%3DGameElement Member%3D(Name%3D.ctor OverloadingParameters%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DInt32)%2C(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DInt32)%2C(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DInt32)]) ParameterIdentifier%3Dx"
+                      tag="ViewCode" />
+                  </referencesInternal>
+                  <type_NamedElement>
+                    <primitiveTypeMoniker
+                      Id="220a3521-e091-4221-bae9-3ef9018e845c"
+                      LastKnownName="Integer"
+                      LastKnownLocation="SpaceImpact.GameEngine.Model.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="bb390e70-68bd-4e7a-95bf-7402d1c78cf0"
+                  name="y"
+                  direction="In">
+                  <referencesInternal>
+                    <reference
+                      Id="c065b77d-7e12-4017-8e07-fca7e9eee2af"
+                      handle="viewcode://./CodeSchema_Parameter?Assembly%3D&quot;file:%2F%2F%2FD:%2FIT Lab%2FBarabash%2FSpaceImpact%2FSpaceImpact%2FSpaceImpact.GameEngine%2Fbin%2FDebug%2FSpaceImpact.GameEngine.dll&quot; Namespace%3DSpaceImpact.GameEngine.BaseGameElements Type%3DGameElement Member%3D(Name%3D.ctor OverloadingParameters%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DInt32)%2C(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DInt32)%2C(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DInt32)]) ParameterIdentifier%3Dy"
+                      tag="ViewCode" />
+                  </referencesInternal>
+                  <type_NamedElement>
+                    <primitiveTypeMoniker
+                      Id="220a3521-e091-4221-bae9-3ef9018e845c"
+                      LastKnownName="Integer"
+                      LastKnownLocation="SpaceImpact.GameEngine.Model.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="30b98db4-0750-49ea-9a24-f37c080b8460"
+                  name="life"
+                  direction="In">
+                  <referencesInternal>
+                    <reference
+                      Id="0a691033-7d3f-4945-b6b1-ae5b1ea78674"
+                      handle="viewcode://./CodeSchema_Parameter?Assembly%3D&quot;file:%2F%2F%2FD:%2FIT Lab%2FBarabash%2FSpaceImpact%2FSpaceImpact%2FSpaceImpact.GameEngine%2Fbin%2FDebug%2FSpaceImpact.GameEngine.dll&quot; Namespace%3DSpaceImpact.GameEngine.BaseGameElements Type%3DGameElement Member%3D(Name%3D.ctor OverloadingParameters%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DInt32)%2C(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DInt32)%2C(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DInt32)]) ParameterIdentifier%3Dlife"
+                      tag="ViewCode" />
+                  </referencesInternal>
+                  <type_NamedElement>
+                    <primitiveTypeMoniker
+                      Id="220a3521-e091-4221-bae9-3ef9018e845c"
+                      LastKnownName="Integer"
+                      LastKnownLocation="SpaceImpact.GameEngine.Model.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+            </ownedParameters>
+          </operation>
+        </ownedOperationsInternal>
+      </class>
+    </packageHasNamedElement>
+  </packagedElements>
+</package>

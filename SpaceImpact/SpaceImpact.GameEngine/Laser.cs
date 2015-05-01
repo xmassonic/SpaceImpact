@@ -9,8 +9,15 @@ namespace SpaceImpact.GameEngine
 {
     public class Laser: GameObject, IMotion
     {
+        /*
+         * Review GY: для чого даному класу потрібна властивість life?
+         */
         public Laser(int x, int y, int life) : base(x, y, life) { }
 
+        /*
+         * Review GY: цей метод продубльований у всіх класах, похідних від GameObject.
+         * Рекомендую перенести цей метод в базовий клас
+         */
         public void Motion(int dx, int dy)
         {
             if (this.CanMotion(dx, dy) == false)
@@ -22,6 +29,10 @@ namespace SpaceImpact.GameEngine
             this.Y += dy;
         }
 
+        /*
+         * Review GY: цей метод продубльований у всіх класах, похідних від GameObject.
+         * Рекомендую перенести цей метод в базовий клас
+         */
         public bool CanMotion(int dx, int dy)
         {
             int newX = this.X + dx;
@@ -36,6 +47,10 @@ namespace SpaceImpact.GameEngine
             }
         }
 
+        /*
+         * Review GY: цей метод продубльований у всіх похідних класах.
+         * Рекомендую зробити його віртуальним і вразі потреби перевизначати його в похідних класах.
+         */
         public new int IsAlive()
         {
             return (this.Life > 0 ? 1 : 0);
