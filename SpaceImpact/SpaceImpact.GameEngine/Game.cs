@@ -73,7 +73,11 @@ namespace SpaceImpact.GameEngine
         //{
         //    get { return this._boss; }
         //}
-
+        
+        /*
+         * Review GY: на мою думку, не доцільно дозволяти змінювати (зокрема, видаляти) елементи колекції ворогів.
+         * Цю відповідальність краще перенести на клас Game, зробивши функцію RemoveEnemy()
+         */
         public List<Enemy> Enemies
         {
             get { return this._enemies; }

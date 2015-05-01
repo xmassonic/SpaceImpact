@@ -8,6 +8,7 @@ namespace SpaceImpact.ConsoleUI
 {
     class ConsoleControl
     {
+        // Review GY: поле не повинно бути публічним
         public Game _game;
 
         public ConsoleControl(Game game)
@@ -57,6 +58,10 @@ namespace SpaceImpact.ConsoleUI
 
         public void OnEnemyMotion(Object o, ElapsedEventArgs e)
         {
+            /*
+             * Review GY: видалення елементів з колекції, по котрій проходить foreach, 
+             * призводить до виключної ситуації InvalidOperationException
+             */
             foreach (var enemy in _game.Enemies)
             {
                 EnemyMove(enemy);
@@ -74,10 +79,18 @@ namespace SpaceImpact.ConsoleUI
             var cmap = new ConsoleMap();
             var sc = new SpaceshipConsole();
             ProgressBar.ShowProgress();
+            /*
+             *Review GY: консоль варто чистити після натиснення клавіші Enter.
+             *В іншому випадку користувача не встигає прочитати ваше повідомлення про умову старту гри.
+             */
             Console.Clear();
             while (true)
             {
                 ConsoleKeyInfo key = Console.ReadKey();
+                /*
+                 * Review GY: в процесі гри при натисненні клавіші Enter вилітає ексепшин InvalidOperationException.
+                 * Дана поведінка створює незручності користувачу.
+                 */
                 if (key.Key == ConsoleKey.Enter)
                 {
                     _game.Start();
@@ -125,6 +138,7 @@ namespace SpaceImpact.ConsoleUI
                 }
                 else if (key.Key==ConsoleKey.Spacebar)
                 {
+                    // Review GY: повинна бути реалізована можливість робити посріли
                     //_game.SpaceshipShoot(_game.Spaceship);
                 }
                 else if (key.Key == ConsoleKey.Q || key.Key == ConsoleKey.Escape)

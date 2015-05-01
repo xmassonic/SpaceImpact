@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 2013
-VisualStudioVersion = 12.0.31101.0
+VisualStudioVersion = 12.0.21005.1
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SpaceImpact.ConsoleUI", "SpaceImpact.ConsoleUI\SpaceImpact.ConsoleUI.csproj", "{B88B6C33-B46E-4A43-B846-4F64F1C4A44F}"
 EndProject
@@ -10,6 +10,8 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SpaceImpact.GameEngine", "SpaceImpact.GameEngine\SpaceImpact.GameEngine.csproj", "{47FB599A-AF32-4CBB-9F3E-7FF2DFFB687D}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SpaceImpact.GameEngine.Test", "SpaceImpact.GameEngine.Test\SpaceImpact.GameEngine.Test.csproj", "{5F10C3B5-652A-4163-88D2-0644D15962C1}"
+EndProject
+Project("{F088123C-0E9E-452A-89E6-6BA2F21D5CAC}") = "SpaceImpact.GameEngine.Model", "SpaceImpact.GameEngine.Model\SpaceImpact.GameEngine.Model.modelproj", "{5654108B-2758-4A86-968F-0EFC48843158}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -33,6 +35,10 @@ Global
 		{5F10C3B5-652A-4163-88D2-0644D15962C1}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{5F10C3B5-652A-4163-88D2-0644D15962C1}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{5F10C3B5-652A-4163-88D2-0644D15962C1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5654108B-2758-4A86-968F-0EFC48843158}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5654108B-2758-4A86-968F-0EFC48843158}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5654108B-2758-4A86-968F-0EFC48843158}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5654108B-2758-4A86-968F-0EFC48843158}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
