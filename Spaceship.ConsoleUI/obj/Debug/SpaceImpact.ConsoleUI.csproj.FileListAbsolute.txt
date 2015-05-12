@@ -1,0 +1,8 @@
+F:\visual studio 2013\Projects\SpaceImpact\Spaceship.ConsoleUI\bin\Debug\SpaceImpact.ConsoleUI.exe.config
+F:\visual studio 2013\Projects\SpaceImpact\Spaceship.ConsoleUI\bin\Debug\SpaceImpact.ConsoleUI.exe
+F:\visual studio 2013\Projects\SpaceImpact\Spaceship.ConsoleUI\bin\Debug\SpaceImpact.ConsoleUI.pdb
+F:\visual studio 2013\Projects\SpaceImpact\Spaceship.ConsoleUI\bin\Debug\SpaceImpact.GameEngine.dll
+F:\visual studio 2013\Projects\SpaceImpact\Spaceship.ConsoleUI\bin\Debug\SpaceImpact.GameEngine.pdb
+F:\visual studio 2013\Projects\SpaceImpact\Spaceship.ConsoleUI\obj\Debug\SpaceImpact.ConsoleUI.csprojResolveAssemblyReference.cache
+F:\visual studio 2013\Projects\SpaceImpact\Spaceship.ConsoleUI\obj\Debug\SpaceImpact.ConsoleUI.exe
+F:\visual studio 2013\Projects\SpaceImpact\Spaceship.ConsoleUI\obj\Debug\SpaceImpact.ConsoleUI.pdb
