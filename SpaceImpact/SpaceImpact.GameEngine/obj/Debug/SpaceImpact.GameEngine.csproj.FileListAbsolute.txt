@@ -1,0 +1,5 @@
+E:\SpaceImpact\spaceimpact\SpaceImpact\SpaceImpact.GameEngine\bin\Debug\SpaceImpact.GameEngine.dll
+E:\SpaceImpact\spaceimpact\SpaceImpact\SpaceImpact.GameEngine\bin\Debug\SpaceImpact.GameEngine.pdb
+E:\SpaceImpact\spaceimpact\SpaceImpact\SpaceImpact.GameEngine\obj\Debug\SpaceImpact.GameEngine.dll
+E:\SpaceImpact\spaceimpact\SpaceImpact\SpaceImpact.GameEngine\obj\Debug\SpaceImpact.GameEngine.pdb
+E:\SpaceImpact\spaceimpact\SpaceImpact\SpaceImpact.GameEngine\obj\Debug\SpaceImpact.GameEngine.csprojResolveAssemblyReference.cache
