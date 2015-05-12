@@ -1,7 +1,0 @@
-E:\SpaceImpact\spaceimpact\SpaceImpact\SpaceImpact.GameEngine.Test\bin\Debug\SpaceImpact.GameEngine.Test.dll
-E:\SpaceImpact\spaceimpact\SpaceImpact\SpaceImpact.GameEngine.Test\bin\Debug\SpaceImpact.GameEngine.Test.pdb
-E:\SpaceImpact\spaceimpact\SpaceImpact\SpaceImpact.GameEngine.Test\bin\Debug\SpaceImpact.GameEngine.dll
-E:\SpaceImpact\spaceimpact\SpaceImpact\SpaceImpact.GameEngine.Test\bin\Debug\SpaceImpact.GameEngine.pdb
-E:\SpaceImpact\spaceimpact\SpaceImpact\SpaceImpact.GameEngine.Test\obj\Debug\SpaceImpact.GameEngine.Test.csprojResolveAssemblyReference.cache
-E:\SpaceImpact\spaceimpact\SpaceImpact\SpaceImpact.GameEngine.Test\obj\Debug\SpaceImpact.GameEngine.Test.dll
-E:\SpaceImpact\spaceimpact\SpaceImpact\SpaceImpact.GameEngine.Test\obj\Debug\SpaceImpact.GameEngine.Test.pdb

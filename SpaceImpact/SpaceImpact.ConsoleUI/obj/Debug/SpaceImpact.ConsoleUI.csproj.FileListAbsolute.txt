@@ -1,8 +1,0 @@
-E:\SpaceImpact\spaceimpact\SpaceImpact\SpaceImpact.ConsoleUI\bin\Debug\SpaceImpact.ConsoleUI.exe.config
-E:\SpaceImpact\spaceimpact\SpaceImpact\SpaceImpact.ConsoleUI\obj\Debug\SpaceImpact.ConsoleUI.csprojResolveAssemblyReference.cache
-E:\SpaceImpact\spaceimpact\SpaceImpact\SpaceImpact.ConsoleUI\bin\Debug\SpaceImpact.ConsoleUI.exe
-E:\SpaceImpact\spaceimpact\SpaceImpact\SpaceImpact.ConsoleUI\bin\Debug\SpaceImpact.ConsoleUI.pdb
-E:\SpaceImpact\spaceimpact\SpaceImpact\SpaceImpact.ConsoleUI\bin\Debug\SpaceImpact.GameEngine.dll
-E:\SpaceImpact\spaceimpact\SpaceImpact\SpaceImpact.ConsoleUI\bin\Debug\SpaceImpact.GameEngine.pdb
-E:\SpaceImpact\spaceimpact\SpaceImpact\SpaceImpact.ConsoleUI\obj\Debug\SpaceImpact.ConsoleUI.exe
-E:\SpaceImpact\spaceimpact\SpaceImpact\SpaceImpact.ConsoleUI\obj\Debug\SpaceImpact.ConsoleUI.pdb

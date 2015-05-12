@@ -1,8 +1,0 @@
-E:\SpaceImpact\spaceimpact\SpaceImpact\SpaceImpact.DesktopUI\bin\Debug\SpaceImpact.DesktopUI.exe.config
-E:\SpaceImpact\spaceimpact\SpaceImpact\SpaceImpact.DesktopUI\bin\Debug\SpaceImpact.DesktopUI.exe
-E:\SpaceImpact\spaceimpact\SpaceImpact\SpaceImpact.DesktopUI\bin\Debug\SpaceImpact.DesktopUI.pdb
-E:\SpaceImpact\spaceimpact\SpaceImpact\SpaceImpact.DesktopUI\obj\Debug\SpaceImpact.DesktopUI.Properties.Resources.resources
-E:\SpaceImpact\spaceimpact\SpaceImpact\SpaceImpact.DesktopUI\obj\Debug\SpaceImpact.DesktopUI.csproj.GenerateResource.Cache
-E:\SpaceImpact\spaceimpact\SpaceImpact\SpaceImpact.DesktopUI\obj\Debug\SpaceImpact.DesktopUI.exe
-E:\SpaceImpact\spaceimpact\SpaceImpact\SpaceImpact.DesktopUI\obj\Debug\SpaceImpact.DesktopUI.pdb
-E:\SpaceImpact\spaceimpact\SpaceImpact\SpaceImpact.DesktopUI\obj\Debug\SpaceImpact.DesktopUI.csprojResolveAssemblyReference.cache
