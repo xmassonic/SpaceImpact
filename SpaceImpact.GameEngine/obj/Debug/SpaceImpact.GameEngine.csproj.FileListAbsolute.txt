@@ -1,4 +1,0 @@
-F:\visual studio 2013\Projects\SpaceImpact\SpaceImpact.GameEngine\bin\Debug\SpaceImpact.GameEngine.dll
-F:\visual studio 2013\Projects\SpaceImpact\SpaceImpact.GameEngine\bin\Debug\SpaceImpact.GameEngine.pdb
-F:\visual studio 2013\Projects\SpaceImpact\SpaceImpact.GameEngine\obj\Debug\SpaceImpact.GameEngine.dll
-F:\visual studio 2013\Projects\SpaceImpact\SpaceImpact.GameEngine\obj\Debug\SpaceImpact.GameEngine.pdb

@@ -1,1 +1,0 @@
-F:\visual studio 2013\Projects\SpaceImpact\Spaceship.ConsoleUI\obj\Debug\Spaceship.ConsoleUI.csprojResolveAssemblyReference.cache
