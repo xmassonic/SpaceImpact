@@ -1,0 +1,37 @@
+F:\visual studio 2013\Projects\SpaceImpact\SpaceImpact.DesktopUI\bin\Debug\SpaceImpact.DesktopUI.exe.config
+F:\visual studio 2013\Projects\SpaceImpact\SpaceImpact.DesktopUI\bin\Debug\SpaceImpact.DesktopUI.exe
+F:\visual studio 2013\Projects\SpaceImpact\SpaceImpact.DesktopUI\bin\Debug\SpaceImpact.DesktopUI.pdb
+F:\visual studio 2013\Projects\SpaceImpact\SpaceImpact.DesktopUI\bin\Debug\SpaceImpact.GameEngine.dll
+F:\visual studio 2013\Projects\SpaceImpact\SpaceImpact.DesktopUI\bin\Debug\SpaceImpact.GameEngine.pdb
+F:\visual studio 2013\Projects\SpaceImpact\SpaceImpact.DesktopUI\obj\Debug\SpaceImpact.DesktopUI.csprojResolveAssemblyReference.cache
+F:\visual studio 2013\Projects\SpaceImpact\SpaceImpact.DesktopUI\obj\Debug\SpaceImpact.DesktopUI.Properties.Resources.resources
+F:\visual studio 2013\Projects\SpaceImpact\SpaceImpact.DesktopUI\obj\Debug\SpaceImpact.DesktopUI.csproj.GenerateResource.Cache
+F:\visual studio 2013\Projects\SpaceImpact\SpaceImpact.DesktopUI\obj\Debug\SpaceImpact.DesktopUI.exe
+F:\visual studio 2013\Projects\SpaceImpact\SpaceImpact.DesktopUI\obj\Debug\SpaceImpact.DesktopUI.pdb
+F:\visual studio 2013\Projects\SpaceImpact\SpaceImpact.DesktopUI\obj\Debug\SpaceImpact.DesktopUI.SpaceImpact.resources
+C:\Users\Hagen\Desktop\SpaceImpact\SpaceImpact.DesktopUI\bin\Debug\SpaceImpact.DesktopUI.exe.config
+C:\Users\Hagen\Desktop\SpaceImpact\SpaceImpact.DesktopUI\obj\Debug\SpaceImpact.DesktopUI.exe
+C:\Users\Hagen\Desktop\SpaceImpact\SpaceImpact.DesktopUI\obj\Debug\SpaceImpact.DesktopUI.pdb
+C:\Users\Hagen\Desktop\SpaceImpact\SpaceImpact.DesktopUI\bin\Debug\SpaceImpact.DesktopUI.exe
+C:\Users\Hagen\Desktop\SpaceImpact\SpaceImpact.DesktopUI\bin\Debug\SpaceImpact.DesktopUI.pdb
+C:\Users\Hagen\Desktop\SpaceImpact\SpaceImpact.DesktopUI\bin\Debug\SpaceImpact.GameEngine.dll
+C:\Users\Hagen\Desktop\SpaceImpact\SpaceImpact.DesktopUI\bin\Debug\SpaceImpact.GameEngine.pdb
+C:\Users\Hagen\Desktop\SpaceImpact\SpaceImpact.DesktopUI\obj\Debug\SpaceImpact.DesktopUI.csprojResolveAssemblyReference.cache
+C:\Users\Hagen\Desktop\SpaceImpact\SpaceImpact.DesktopUI\obj\Debug\SpaceImpact.DesktopUI.SpaceImpact.resources
+C:\Users\Hagen\Desktop\SpaceImpact\SpaceImpact.DesktopUI\obj\Debug\SpaceImpact.DesktopUI.Properties.Resources.resources
+C:\Users\Hagen\Desktop\SpaceImpact\SpaceImpact.DesktopUI\obj\Debug\SpaceImpact.DesktopUI.csproj.GenerateResource.Cache
+C:\Users\Hagen\Desktop\SpaceImpact\SpaceImpact.DesktopUI\obj\Debug\SpaceImpact.DesktopUI.AboutSI.resources
+C:\Users\Hagen\Desktop\SpaceImpact\SpaceImpact.DesktopUI\obj\Debug\SpaceImpact.DesktopUI.MenuForm.resources
+C:\Users\Ihor\AppData\Roaming\Skype\My Skype Received Files\SpaceImpact\SpaceImpact\SpaceImpact.DesktopUI\bin\Debug\SpaceImpact.DesktopUI.exe.config
+C:\Users\Ihor\AppData\Roaming\Skype\My Skype Received Files\SpaceImpact\SpaceImpact\SpaceImpact.DesktopUI\obj\Debug\SpaceImpact.DesktopUI.exe
+C:\Users\Ihor\AppData\Roaming\Skype\My Skype Received Files\SpaceImpact\SpaceImpact\SpaceImpact.DesktopUI\obj\Debug\SpaceImpact.DesktopUI.pdb
+C:\Users\Ihor\AppData\Roaming\Skype\My Skype Received Files\SpaceImpact\SpaceImpact\SpaceImpact.DesktopUI\bin\Debug\SpaceImpact.DesktopUI.exe
+C:\Users\Ihor\AppData\Roaming\Skype\My Skype Received Files\SpaceImpact\SpaceImpact\SpaceImpact.DesktopUI\bin\Debug\SpaceImpact.DesktopUI.pdb
+C:\Users\Ihor\AppData\Roaming\Skype\My Skype Received Files\SpaceImpact\SpaceImpact\SpaceImpact.DesktopUI\bin\Debug\SpaceImpact.GameEngine.dll
+C:\Users\Ihor\AppData\Roaming\Skype\My Skype Received Files\SpaceImpact\SpaceImpact\SpaceImpact.DesktopUI\bin\Debug\SpaceImpact.GameEngine.pdb
+C:\Users\Ihor\AppData\Roaming\Skype\My Skype Received Files\SpaceImpact\SpaceImpact\SpaceImpact.DesktopUI\obj\Debug\SpaceImpact.DesktopUI.csprojResolveAssemblyReference.cache
+C:\Users\Ihor\AppData\Roaming\Skype\My Skype Received Files\SpaceImpact\SpaceImpact\SpaceImpact.DesktopUI\obj\Debug\SpaceImpact.DesktopUI.AboutSI.resources
+C:\Users\Ihor\AppData\Roaming\Skype\My Skype Received Files\SpaceImpact\SpaceImpact\SpaceImpact.DesktopUI\obj\Debug\SpaceImpact.DesktopUI.SpaceImpact.resources
+C:\Users\Ihor\AppData\Roaming\Skype\My Skype Received Files\SpaceImpact\SpaceImpact\SpaceImpact.DesktopUI\obj\Debug\SpaceImpact.DesktopUI.MenuForm.resources
+C:\Users\Ihor\AppData\Roaming\Skype\My Skype Received Files\SpaceImpact\SpaceImpact\SpaceImpact.DesktopUI\obj\Debug\SpaceImpact.DesktopUI.Properties.Resources.resources
+C:\Users\Ihor\AppData\Roaming\Skype\My Skype Received Files\SpaceImpact\SpaceImpact\SpaceImpact.DesktopUI\obj\Debug\SpaceImpact.DesktopUI.csproj.GenerateResource.Cache

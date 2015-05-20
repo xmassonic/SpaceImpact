@@ -1,0 +1,15 @@
+F:\visual studio 2013\Projects\SpaceImpact\SpaceImpact.GameEngine\bin\Debug\SpaceImpact.GameEngine.dll
+F:\visual studio 2013\Projects\SpaceImpact\SpaceImpact.GameEngine\bin\Debug\SpaceImpact.GameEngine.pdb
+F:\visual studio 2013\Projects\SpaceImpact\SpaceImpact.GameEngine\obj\Debug\SpaceImpact.GameEngine.dll
+F:\visual studio 2013\Projects\SpaceImpact\SpaceImpact.GameEngine\obj\Debug\SpaceImpact.GameEngine.pdb
+F:\visual studio 2013\Projects\SpaceImpact\SpaceImpact.GameEngine\obj\Debug\SpaceImpact.GameEngine.csprojResolveAssemblyReference.cache
+C:\Users\Hagen\Desktop\SpaceImpact\SpaceImpact.GameEngine\bin\Debug\SpaceImpact.GameEngine.dll
+C:\Users\Hagen\Desktop\SpaceImpact\SpaceImpact.GameEngine\bin\Debug\SpaceImpact.GameEngine.pdb
+C:\Users\Hagen\Desktop\SpaceImpact\SpaceImpact.GameEngine\obj\Debug\SpaceImpact.GameEngine.dll
+C:\Users\Hagen\Desktop\SpaceImpact\SpaceImpact.GameEngine\obj\Debug\SpaceImpact.GameEngine.pdb
+C:\Users\Ihor\AppData\Roaming\Skype\My Skype Received Files\SpaceImpact\SpaceImpact\SpaceImpact.GameEngine\bin\Debug\SpaceImpact.GameEngine.dll
+C:\Users\Ihor\AppData\Roaming\Skype\My Skype Received Files\SpaceImpact\SpaceImpact\SpaceImpact.GameEngine\bin\Debug\SpaceImpact.GameEngine.pdb
+C:\Users\Ihor\AppData\Roaming\Skype\My Skype Received Files\SpaceImpact\SpaceImpact\SpaceImpact.GameEngine\obj\Debug\SpaceImpact.GameEngine.csprojResolveAssemblyReference.cache
+C:\Users\Ihor\AppData\Roaming\Skype\My Skype Received Files\SpaceImpact\SpaceImpact\SpaceImpact.GameEngine\obj\Debug\SpaceImpact.GameEngine.dll
+C:\Users\Ihor\AppData\Roaming\Skype\My Skype Received Files\SpaceImpact\SpaceImpact\SpaceImpact.GameEngine\obj\Debug\SpaceImpact.GameEngine.pdb
+C:\Users\Hagen\Desktop\SpaceImpact\SpaceImpact.GameEngine\obj\Debug\SpaceImpact.GameEngine.csprojResolveAssemblyReference.cache

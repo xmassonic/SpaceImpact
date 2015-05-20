@@ -1,0 +1,19 @@
+F:\visual studio 2013\Projects\SpaceImpact\Spaceship.ConsoleUI\bin\Debug\SpaceImpact.ConsoleUI.exe.config
+F:\visual studio 2013\Projects\SpaceImpact\Spaceship.ConsoleUI\bin\Debug\SpaceImpact.ConsoleUI.exe
+F:\visual studio 2013\Projects\SpaceImpact\Spaceship.ConsoleUI\bin\Debug\SpaceImpact.ConsoleUI.pdb
+F:\visual studio 2013\Projects\SpaceImpact\Spaceship.ConsoleUI\bin\Debug\SpaceImpact.GameEngine.dll
+F:\visual studio 2013\Projects\SpaceImpact\Spaceship.ConsoleUI\bin\Debug\SpaceImpact.GameEngine.pdb
+F:\visual studio 2013\Projects\SpaceImpact\Spaceship.ConsoleUI\obj\Debug\SpaceImpact.ConsoleUI.csprojResolveAssemblyReference.cache
+F:\visual studio 2013\Projects\SpaceImpact\Spaceship.ConsoleUI\obj\Debug\SpaceImpact.ConsoleUI.exe
+F:\visual studio 2013\Projects\SpaceImpact\Spaceship.ConsoleUI\obj\Debug\SpaceImpact.ConsoleUI.pdb
+C:\Users\Hagen\Desktop\SpaceImpact\Spaceship.ConsoleUI\bin\Debug\SpaceImpact.ConsoleUI.exe.config
+C:\Users\Hagen\Desktop\SpaceImpact\Spaceship.ConsoleUI\obj\Debug\SpaceImpact.ConsoleUI.exe
+C:\Users\Hagen\Desktop\SpaceImpact\Spaceship.ConsoleUI\obj\Debug\SpaceImpact.ConsoleUI.pdb
+C:\Users\Hagen\Desktop\SpaceImpact\Spaceship.ConsoleUI\bin\Debug\SpaceImpact.ConsoleUI.exe
+C:\Users\Hagen\Desktop\SpaceImpact\Spaceship.ConsoleUI\bin\Debug\SpaceImpact.ConsoleUI.pdb
+C:\Users\Hagen\Desktop\SpaceImpact\Spaceship.ConsoleUI\bin\Debug\SpaceImpact.GameEngine.dll
+C:\Users\Hagen\Desktop\SpaceImpact\Spaceship.ConsoleUI\bin\Debug\SpaceImpact.GameEngine.pdb
+C:\Users\Hagen\Desktop\SpaceImpact\Spaceship.ConsoleUI\obj\Debug\SpaceImpact.ConsoleUI.csprojResolveAssemblyReference.cache
+C:\Users\Ihor\AppData\Roaming\Skype\My Skype Received Files\SpaceImpact\SpaceImpact\Spaceship.ConsoleUI\bin\Debug\SpaceImpact.ConsoleUI.exe.config
+C:\Users\Ihor\AppData\Roaming\Skype\My Skype Received Files\SpaceImpact\SpaceImpact\Spaceship.ConsoleUI\obj\Debug\SpaceImpact.ConsoleUI.exe
+C:\Users\Ihor\AppData\Roaming\Skype\My Skype Received Files\SpaceImpact\SpaceImpact\Spaceship.ConsoleUI\obj\Debug\SpaceImpact.ConsoleUI.pdb

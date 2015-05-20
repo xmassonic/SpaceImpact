@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.31101.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SpaceImpact.GameEngine", "SpaceImpact.GameEngine\SpaceImpact.GameEngine.csproj", "{91310329-7DCC-4873-A1EF-AD8228E0E307}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SpaceImpact.ConsoleUI", "Spaceship.ConsoleUI\SpaceImpact.ConsoleUI.csproj", "{9BDA8359-B26B-499F-8E3F-43139D354730}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SpaceImpact.DesktopUI", "SpaceImpact.DesktopUI\SpaceImpact.DesktopUI.csproj", "{C80AA514-C62F-4858-B8B8-5C1538D5F43A}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{91310329-7DCC-4873-A1EF-AD8228E0E307}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{91310329-7DCC-4873-A1EF-AD8228E0E307}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{91310329-7DCC-4873-A1EF-AD8228E0E307}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{91310329-7DCC-4873-A1EF-AD8228E0E307}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9BDA8359-B26B-499F-8E3F-43139D354730}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9BDA8359-B26B-499F-8E3F-43139D354730}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9BDA8359-B26B-499F-8E3F-43139D354730}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9BDA8359-B26B-499F-8E3F-43139D354730}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C80AA514-C62F-4858-B8B8-5C1538D5F43A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C80AA514-C62F-4858-B8B8-5C1538D5F43A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C80AA514-C62F-4858-B8B8-5C1538D5F43A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C80AA514-C62F-4858-B8B8-5C1538D5F43A}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
