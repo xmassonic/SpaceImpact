@@ -5,6 +5,7 @@ namespace SpaceImpact.GameEngine
 {
     public sealed class Spaceship : GameObject, IMovable, ILife
     {
+        //review VD: непотрібне оголошення змінної (присутня агналогічна властивість Life)
         private int _lifeCount;
         public event Dispatcher.SpaceshipDrawing HideSpaceship;
 
@@ -53,6 +54,7 @@ namespace SpaceImpact.GameEngine
         public bool CanMove(int changePointX, int changePointY, List<int> bounds)
         {
             bool canMove = true;
+            //review VD: використання магічного числа
             if (bounds.Count == 4)
             {
                 foreach (var h in Model)
@@ -60,6 +62,7 @@ namespace SpaceImpact.GameEngine
                     if (!((h.X + changePointX > bounds[0]) && (h.X + changePointX < bounds[1])
                           && (h.Y + changePointY > bounds[2]) && (h.Y + changePointY < bounds[3])))
                     {
+                        // review VD: тут можна було б одразу повернути результат false
                         canMove = false;
                     }
 
@@ -86,6 +89,7 @@ namespace SpaceImpact.GameEngine
         public Spaceship(int lifeCount, int pointX, int pointY)
         {
             Life = lifeCount;
+            // review VD: не бачу необхідності у використанні змінної _lifeCount
             _lifeCount = Life;
             StartPointX = pointX;
             StartPointY = pointY;

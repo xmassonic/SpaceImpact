@@ -13,6 +13,7 @@ namespace SpaceImpact.GameEngine
 
     public enum GameControl
     {
+        //review VD: явне присвоєння можна було опустити, оскільки елементи перечислення отримають відповідні значенння автоматично
         StartGame = 0,
         EndGame = 1,
         PauseGame = 2,
@@ -94,6 +95,7 @@ namespace SpaceImpact.GameEngine
 
         private enum GameStatus
         {
+            //review VD: явне присвоєння можна було опустити, оскільки елементи перечислення отримають відповідні значенння автоматично
             InProgress = 0,
             Paused = 1,
             Stopped = 2,
@@ -102,6 +104,7 @@ namespace SpaceImpact.GameEngine
 
         public enum ExitStatus
         {
+            //review VD: явне присвоєння можна було опустити, оскільки елементи перечислення отримають відповідні значенння автоматично
             WinGame = 0,
             LoseGame = 1,
             StopGame = 2,
@@ -141,6 +144,7 @@ namespace SpaceImpact.GameEngine
                 for (int j = 0; j < enemies.Count; j++)
                 {
                     var enemy = enemies[j];
+                    // review VD: умови варто відділити дужками
                     if (laser.X == enemy.X && laser.Y == enemy.Y ||
                         laser.X + 1 == enemy.X && laser.Y == enemy.Y)
                     {
@@ -149,6 +153,7 @@ namespace SpaceImpact.GameEngine
                         enemies.Remove(enemy);
                         lasers.Remove(laser);
                         collisionsCount++;
+                        //review VD: використання магічного числа
                         Score += 10;
                         OnGameScoreUpdate(Score, ScorePointX, ScorePointY);
                     }
@@ -176,6 +181,7 @@ namespace SpaceImpact.GameEngine
             bool crash = false;
             foreach (var h in _hero.Model)
             {
+                // review VD: умови варто відділити дужками
                 if (enemy.X - 1 == h.X && enemy.Y == h.Y)
                 {
                     crash = true;
@@ -192,6 +198,7 @@ namespace SpaceImpact.GameEngine
                 for (int j = 0; j < spaceship.Count; j++)
                 {
                     var element = spaceship[j];
+                    // review VD: умови варто відділити дужками
                     if (laser.X - 1 == element.X && laser.Y == element.Y ||
                         laser.X == element.X && laser.Y == element.Y)
                     {
@@ -225,6 +232,7 @@ namespace SpaceImpact.GameEngine
                 for (int index = 0; index < spaceship.Count; index++)
                 {
                     var element = spaceship[index];
+                    // review VD: умови варто відділити дужками
                     if (laser.X - 1 == element.X && laser.Y == element.Y ||
                         laser.X == element.X && laser.Y == element.Y)
                     {
@@ -260,6 +268,7 @@ namespace SpaceImpact.GameEngine
                 for (int j = 0; j < bLasers.Count; j++)
                 {
                     var bLaser = bLasers[j];
+                    // review VD: умови варто відділити дужками
                     if (pLaser.X + 1 == bLaser.X && pLaser.Y == bLaser.Y ||
                         pLaser.X == bLaser.X && pLaser.Y == bLaser.Y)
                     {
@@ -274,6 +283,7 @@ namespace SpaceImpact.GameEngine
 
         private bool LaserNearBorder(Laser laser, List<int> bounds)
         {
+            // review VD: умови варто відділити дужками
             var laserNearBorder = laser.X + 1 == bounds[1] || laser.X == bounds[0];
             return laserNearBorder;
         }
@@ -284,6 +294,7 @@ namespace SpaceImpact.GameEngine
 
         private void GameObjectsTurn(object sender, ElapsedEventArgs e)
         {
+            // review VD: умови варто відділити дужками
             if (_enemies.Count == 0 && !BossInited)
             {
                 BossInit();
@@ -572,6 +583,7 @@ namespace SpaceImpact.GameEngine
         {
             OnGameConfirmExit(Score, status);
             var gameAction = _control.OnGetAction();
+            // review VD: умови варто відділити дужками
             while (gameAction != GameControl.EndGame && gameAction != GameControl.StartGame)
             {
                 gameAction = _control.OnGetAction();
@@ -628,6 +640,7 @@ namespace SpaceImpact.GameEngine
 
         private void GameProcess()
         {
+            // review VD: умови варто відділити дужками
             while (_gameStatus != GameStatus.GameEnd && _hero.IsAlive)
             {
                 if (_gameStatus == GameStatus.Paused)
@@ -637,6 +650,7 @@ namespace SpaceImpact.GameEngine
                         ResumeGame();
                     }
                 }
+                // review VD: умови варто відділити дужками
                 if (PlayerCanMove && _gameStatus != GameStatus.Paused)
                 {
                     PlayerMove();
@@ -645,14 +659,17 @@ namespace SpaceImpact.GameEngine
             if (_gameStatus == GameStatus.Stopped)
             {
                 ExitStatus status = ExitStatus.DefaultStatus;
+                // review VD: умови варто відділити дужками
                 if (_hero.Life > 0 && _boss.Life > 0)
                 {
                     status = ExitStatus.StopGame;
                 }
+                // review VD: умови варто відділити дужками
                 if (_hero.Life == 0 && _boss.Life > 0)
                 {
                     status = ExitStatus.LoseGame;
                 }
+                // review VD: умови варто відділити дужками
                 if (_hero.Life > 0 && _boss.Life == 0)
                 {
                     status = ExitStatus.WinGame;
@@ -673,6 +690,7 @@ namespace SpaceImpact.GameEngine
 
         private void EnemiesClear()
         {
+            //review VD: навіщо занулювати значення змінної index на кожному кроці циклу?
             for (int index = 0; index < _enemies.Count; index = 0)
             {
                 var enemy = _enemies[index];
@@ -694,12 +712,15 @@ namespace SpaceImpact.GameEngine
 
         private void LasersClear()
         {
+            //review VD: навіщо занулювати значення змінної index на кожному кроці циклу?
             for (int index = 0; index < _hero.Lasers.Count; index = 0)
             {
                 var laser = _hero.Lasers[index];
                 _laser.OnLaserHide(laser.X, laser.Y);
                 _hero.Lasers.Remove(laser);
             }
+            // review VD: цей кусок коду краще було б винести в окремий метод
+            //review VD: навіщо занулювати значення змінної index на кожному кроці циклу?
             for (int index = 0; index < _boss.Lasers.Count; index = 0)
             {
                 var laser = _boss.Lasers[index];

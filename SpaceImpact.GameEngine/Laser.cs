@@ -32,6 +32,7 @@ namespace SpaceImpact.GameEngine
             return new Laser(pointX, pointY);
         }
 
+        // review VD: непотрібне явне оголошення конструктора (не виконує жодної дії)
         public Laser() { }
         public Laser(int pointX, int pointY)
         {

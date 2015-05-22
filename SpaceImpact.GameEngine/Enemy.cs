@@ -8,6 +8,7 @@ namespace SpaceImpact.GameEngine
     {
         private readonly Random _random = new Random();
 
+        //review VD: для чого потрібна ця змінна, якщо нижче оголошена така ж property?
         private readonly int _maxEnemyCount;
         public int MaxEnemyCount { get; set; }
 
@@ -39,6 +40,7 @@ namespace SpaceImpact.GameEngine
         {
             MaxEnemyCount = maxEnemyCount;
             StartEnemyCount = startEnemyCount;
+            //review VD: лишнє присвоєння
             _maxEnemyCount = MaxEnemyCount;
             Bounds = bounds;
         }
@@ -81,6 +83,7 @@ namespace SpaceImpact.GameEngine
                 if (!((X + changePointX > bounds[0]) && (X + changePointX < bounds[1])
                       && (Y + changePointY > bounds[2]) && (Y + changePointY < bounds[3])))
                 {
+                    //review VD: тут можна було одразу повернути результат false
                     canMove = false;
                 }
 

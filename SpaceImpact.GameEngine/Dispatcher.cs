@@ -8,6 +8,7 @@ namespace SpaceImpact.GameEngine
 {
     public class Dispatcher
     {
+        // review VD: неправильне іменування делегатів для подій (необхідно добавити суфікс EventHandler)
         public delegate void SpaceshipDrawing(List<SpaceshipFragment> hero);
 
         public delegate void GameObjectDrawing(int pointX, int pointY);

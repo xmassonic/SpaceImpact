@@ -6,3 +6,4 @@ F:\visual studio 2013\Projects\SpaceImpact\Spaceship.ConsoleUI\bin\Debug\SpaceIm
 F:\visual studio 2013\Projects\SpaceImpact\Spaceship.ConsoleUI\obj\Debug\SpaceImpact.ConsoleUI.csprojResolveAssemblyReference.cache
 F:\visual studio 2013\Projects\SpaceImpact\Spaceship.ConsoleUI\obj\Debug\SpaceImpact.ConsoleUI.exe
 F:\visual studio 2013\Projects\SpaceImpact\Spaceship.ConsoleUI\obj\Debug\SpaceImpact.ConsoleUI.pdb
+E:\SpaceImpact(phase#2)\Spaceship.ConsoleUI\bin\Debug\SpaceImpact.ConsoleUI.exe.config
